@@ -1,0 +1,268 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image:url('images/film-grain.gif');
+    background-repeat:repeat;
+}
+
+.nav-bar
+{
+    background: rgb(0, 0, 0,0.5);
+    height: 80px;
+}
+
+.menu
+{
+    float: right;
+    list-style: none;
+    margin: 20px;
+}
+
+.menu li
+{
+    display: inline-block; 
+    margin: 10px 5px;
+    position: relative;
+}
+
+
+.menu li a
+{
+    text-decoration: none;
+    color: #fff;
+    padding: 6px 8px;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+    border: 1px solid #fff;
+}
+
+.menu li ul
+{
+    display: none;
+    position: absolute;
+    background-color: rgba(0,0,0,0.5);
+    padding: 10%;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.menu li a:hover
+{
+    background: #fff;
+    transition: .3s;
+    color: #000;
+		    
+}
+
+.about
+{
+    text-align: left;
+    font-family: Monospace;
+    color: #000;
+    margin-top:160px;
+    padding: 10px;
+}
+
+.welcome
+{
+    position: relative;
+    text-align: left;
+    font-family: Monospace;
+    color: #000;
+    top: 160px;
+}
+
+
+
+.welcome h1
+{
+    font-size: 42px;
+    margin: 25px;
+}
+
+.btn
+{
+    font-size: 18px;
+    letter-spacing: 2px;
+    margin: 5px;
+    padding: 7px 10px;
+    text-decoration: none;
+    border: 1px solid #fff;
+}
+
+.btn:hover
+{
+    background: #000;
+    transition: .3s;
+    color: #fff;
+		    
+}
+
+.btn1
+{
+    background: #fff;
+    color: #000;
+}
+
+.btn2
+{
+    background: #fff;
+    color: #000;
+}
+
+img {
+  vertical-align: middle;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+    position: relative;
+    margin-top:75px;
+    margin-left:5%;
+    margin-right:50%;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #f9f9f9;
+  padding: 2px 16px;
+  color: black;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+@media screen and (max-width: 600px)
+{
+
+    .nav-bar
+    {
+	background: rgb(0, 0, 0,0.5);
+	height: 225px;
+    }
+    .menu li{
+	display: block;
+    }
+    .menu li a{
+	display: inline-block;
+	color: #fff;	
+    }
+    .about{
+	margin-top:50px;
+    }
+    .welcome{
+	
+    }
+    .container {
+	postion:relative;
+	margin-top:50px;
+	margin-right: 15%;
+	margin-left:15%;
+	
+    }
+
+}
+
+
+
+/* .menu li:hover ul */
+/* { */
+/*     display: block; */
+/*     position: absolute; */
+/*     top: 10px; */
+/*     transition: .8s; */
+/* } */
+
+
+/* .menu li ul li a */
+/* { */
+/*     width: 70px; */
+/*     border-radius: 4px; */
+/* } */
+
+/* .menu li ul a */
+/* { */
+/*     padding: 5px 15px; */
+/* } */
+
+
+/* .menu li ul a:hover */
+/* { */
+/*     background-color: #f3f3f3; */
+/*     transition: .3s; */
+/* } */
+
+
+
+
