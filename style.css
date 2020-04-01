@@ -2,88 +2,153 @@
 {
     margin: 0;
     padding: 0;
+    box-sizing:border-box;
 }
-
 body{
     background-image:url('images/film-grain.gif');
     background-repeat:repeat;
-}
-
-.nav-bar
-{
-    background: rgb(0, 0, 0,0.5);
-    height: 80px;
-}
-
-.menu
-{
-    float: right;
-    list-style: none;
-    margin: 20px;
-}
-
-.menu li
-{
-    display: inline-block; 
-    margin: 10px 5px;
-    position: relative;
+    font-family: Monospace;
 }
 
 
-.menu li a
+/*
+    CSS for the menu bar
+ */
+.top-bar
 {
-    text-decoration: none;
-    color: #fff;
-    padding: 6px 8px;
-    font-family: sans-serif;
-    letter-spacing: 2px;
-    border: 1px solid #fff;
+    background-color: rgba(0, 0, 0,0.5);
+    height: 90px;
 }
-
-.menu li ul
-{
-    display: none;
+.logo{
     position: absolute;
-    background-color: rgba(0,0,0,0.5);
-    padding: 10%;
-    border-radius: 0px 0px 10px 10px;
 }
-
+.menu{
+    list-style-type: none;
+    margin: 0;
+    padding: 16px;
+    overflow: hidden;
+    width: 75%;
+    float: right;
+}
+.menu li{
+    float: right;
+    margin: 10px 5px;
+}
+.menu li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 6px 8px;
+    text-decoration: none;
+    border: 1px solid #fff;
+    font-size: x-large;
+    letter-spacing: 2px;
+}
 .menu li a:hover
 {
     background: #fff;
     transition: .3s;
     color: #000;
-		    
+
 }
 
-.about
-{
-    text-align: left;
-    font-family: Monospace;
-    color: #000;
-    margin-top:160px;
-    padding: 10px;
+
+
+.about{
+    padding: 30px;
+}
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftColumn {
+    float: left;
+    width: 75%;
+}
+/* Right column */
+.rightColumn {
+    float: left;
+    width: 25%;
+    padding-left: 20px;
+}
+/* Fake image */
+.fakeimg {
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+}
+/* Add a card effect for articles */
+.card {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+    animation: fadeIn ease 2s;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
 }
 
+
+
+
+
+
+
+/*
+   styling for the contact page. and further information about contributors.
+ */
+.contactContainer{
+    padding: 2px 16px;
+}
+.kevinInfo{
+    text-align:left;
+    margin-top: 160px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    padding: 30px;
+    width: 40%;
+    background-color: white;
+    animation: fadeIn ease 2s;
+}
+.carterInfo{
+    text-align:left;
+    margin-top: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    padding: 30px;
+    width: 40%;
+    background-color: white;
+    animation: fadeIn ease 4s;
+}
+.kevinInfo:hover{
+    box-shadow: 0 12px 24px 0 rgba(0,0,0,0.2);
+}
+.carterInfo:hover{
+    box-shadow: 0 12px 24px 0 rgba(0,0,0,0.2);
+}
+
+
+
+
+
+
+
+/*
+    CSS for the Index page
+ */
 .welcome
 {
     position: relative;
     text-align: left;
-    font-family: Monospace;
     color: #000;
     top: 160px;
 }
-
-
-
 .welcome h1
 {
     font-size: 42px;
     margin: 25px;
 }
-
-.btn
+.indexBtn
 {
     font-size: 18px;
     letter-spacing: 2px;
@@ -92,80 +157,114 @@ body{
     text-decoration: none;
     border: 1px solid #fff;
 }
-
-.btn:hover
+.indexBtn:hover
 {
     background: #000;
     transition: .3s;
     color: #fff;
 		    
 }
-
-.btn1
+.contact
+{
+    background: #fff;
+    color: #000;
+}
+.shop
 {
     background: #fff;
     color: #000;
 }
 
-.btn2
-{
-    background: #fff;
-    color: #000;
+
+#topBtn{
+    display: none;
+    position: fixed;
+    border: black;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+}
+#topBtn:hover{
+    background: #000;
+    transition: .3s;
+    color: #fff;
 }
 
-img {
-  vertical-align: middle;
-}
 
+/*
+    CSS for the Paintings page
+ */
 /* Position the image container (needed to position the left and right arrows) */
+/*
 .container {
     position: relative;
-    margin-top:75px;
-    margin-left:5%;
-    margin-right:50%;
+    margin-top:60px;
+    margin-left: 5%;
+    width:70%;
+    background-color: aqua;
 }
 
-/* Hide the images by default */
+!* Hide the images by default *!
 .mySlides {
-  display: none;
+    margin-top: 75px;
+    margin-left: 0%;
+    margin-right: 0%;
+    display: none;
 }
 
-/* Add a pointer when hovering over the thumbnail images */
+.mySlides img{
+    width:50%;
+}
+
+.mySlides iframe{
+    float: right;
+    heigth: 200px;
+}
+
+!* Add a pointer when hovering over the thumbnail images *!
 .cursor {
   cursor: pointer;
 }
 
-/* Next & previous buttons */
+!* Next & previous buttons *!
 .prev,
 .next {
-  cursor: pointer;
-  position: absolute;
-  top: 40%;
-  width: auto;
-  padding: 16px;
-  margin-top: -50px;
-  color: white;
-  font-weight: bold;
-  font-size: 20px;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-  -webkit-user-select: none;
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
 }
 
-/* Position the "next button" to the right */
+!* Position the "next button" to the right *!
 .next {
   right: 0;
   border-radius: 3px 0 0 3px;
 }
 
-/* On hover, add a black background color with a little bit see-through */
+!* On hover, add a black background color with a little bit see-through *!
 .prev:hover,
 .next:hover {
   background-color: rgba(0, 0, 0, 0.8);
 }
 
-/* Number text (1/3 etc) */
-.numbertext {
+!* Number text (1/3 etc) *!
+.numberText {
   color: #f2f2f2;
   font-size: 12px;
   padding: 8px 12px;
@@ -173,12 +272,19 @@ img {
   top: 0;
 }
 
-/* Container for image text */
+!* area for text information *!
+.image-text{
+    text-alight: left;
+    color:black;
+}
+
+!* Container for image text *!
 .caption-container {
-  text-align: center;
-  background-color: #f9f9f9;
-  padding: 2px 16px;
-  color: black;
+    text-align: center;
+    background-color: #f9f9f9;
+    padding: 2px 16px;
+    color: black;
+    clear:left;
 }
 
 .row:after {
@@ -187,13 +293,13 @@ img {
   clear: both;
 }
 
-/* Six columns side by side */
+!* Six columns side by side *!
 .column {
   float: left;
   width: 16.66%;
 }
 
-/* Add a transparency effect for thumnbail images */
+!* Add a transparency effect for thumbnail images *!
 .demo {
   opacity: 0.6;
 }
@@ -202,66 +308,314 @@ img {
 .demo:hover {
   opacity: 1;
 }
+*/
 
-@media screen and (max-width: 600px)
-{
+.grid{
+    text-align: center;
+    padding: 32px;
+    margin-top:80px;
+}
+.row {
+    display: -ms-flexbox; /* IE 10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE 10 */
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
 
-    .nav-bar
-    {
-	background: rgb(0, 0, 0,0.5);
-	height: 225px;
-    }
-    .menu li{
-	display: block;
-    }
-    .menu li a{
-	display: inline-block;
-	color: #fff;	
-    }
-    .about{
-	margin-top:50px;
-    }
-    .welcome{
-	
-    }
-    .container {
-	postion:relative;
-	margin-top:50px;
-	margin-right: 15%;
-	margin-left:15%;
-	
-    }
+/* Create two equal columns that sits next to each other */
+.column {
+    -ms-flex: 25%; /* IE 10 */
+    flex: 25%;
+    padding: 0 4px;
+    position: relative;
+}
 
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.column img:hover{
+    opacity:0.7;
+}
+
+.column h1{
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.3); /* Black see-through */
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+    vertical-align: middle;
+    position: absolute;
+}
+.column:hover h1{
+    opacity: 1;
+}
+.gridBtn{
+    border: none;
+    outline: none;
+    padding: 10px 16px;
+    background-color: white;
+    cursor: pointer;
+    font-size: 18px;
+    color:black;
+}
+.gridBtn:hover{
+    background: #000;
+    transition: .3s;
+    color: #fff;
+}
+.gridBtn.active{
+    background: black;
+    color:white;
+}
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+/* Caption of Modal Image */
+#caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+/* Add Animation */
+.modal-content, #caption {
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+/* The Close Button */
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/*prev and next buttons */
+.prev, .next{
+   cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+.next{
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+.prev:hover, .next:hover{
+    background-color:white;
+    color:black;
 }
 
 
 
-/* .menu li:hover ul */
-/* { */
-/*     display: block; */
-/*     position: absolute; */
-/*     top: 10px; */
-/*     transition: .8s; */
-/* } */
+
+/*
+    CSS for the Reads page
+ */
+.choicePanel{
+    max-width:1000px;
+    margin:auto;
+    padding-top: 80px;
+}
+.Selections{
+    width: 20%;
+    height: 100px;
+    float: left;
+    font-size: 20px;
+    padding-left:10px;
+}
+.Selections select{
+    width: 150px;
+    padding: 5px 35px 5px 5px;
+    font-size: 16px;
+    border: 1px solid black;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+.iFrameSelection{
+    margin-left: 20%;
+    height: 500px;
+}
+
+.iFrameSelection iframe{
+    width: 100%;
+    height: 500px;
+    border: none;
+    font-size:40px;
+}
 
 
-/* .menu li ul li a */
-/* { */
-/*     width: 70px; */
-/*     border-radius: 4px; */
-/* } */
-
-/* .menu li ul a */
-/* { */
-/*     padding: 5px 15px; */
-/* } */
 
 
-/* .menu li ul a:hover */
-/* { */
-/*     background-color: #f3f3f3; */
-/*     transition: .3s; */
-/* } */
+/*Gallery page css */
+.GalleryPage{
+    max-width:1000px;
+    margin:auto;
+    padding-top: 80px;
+}
+.galleryPage h1{
+    font-size:50px;
+    word-break:break-all;
+}
+.galleryRow{
+    margin:10px -16px;
+    animation: fadeIn ease 2s;
+
+}
+/*add patting between each column */
+.galleryRow,.galleryRow > .galleryColumn{
+    padding: 8px
+}
+/*creates three equal columns that floats next to each other*/
+.galleryColumn{
+    float: left;
+    width:33.33%;
+    display:none; /*hide everything by default*/
+
+}
+/*clear floats after row*/
+.galleryRow:after{
+    content:"";
+    display:table;
+    clear:both;
+}
+/*gallery */
+.gallery{
+    background-color:white;
+    padding:10px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+.show{
+    display:block;
+}
+.galleryBtn{
+    border: none;
+    outline: none;
+    padding: 12px 16px;
+    background-color: white;
+    cursor: pointer;
+}
+.galleryBtn:hover{
+    background-color: #ddd;
+}
+.galleryBtn.active{
+    background-color: #666;
+    color: white;
+}
+
+
+
+
+/*  support for other browsers. here for reference
+    -webkit-animation: fadeIn ease 10s;
+    -moz-animation: fadeIn ease 10s;
+    -o-animation: fadeIn ease 10s;*/
+@keyframes fadeIn{
+    0%{
+        opacity:0;
+    }
+    100%{
+        opacity:1;
+    }
+}
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)}
+    to {-webkit-transform:scale(1)}
+}
+@keyframes zoom {
+    from {transform:scale(0)}
+    to {transform:scale(1)}
+}
+
+
+
+
+/*
+    CSS for Mobile
+ */
+@media screen and (max-width: 750px)
+{
+
+    .kevinInfo{
+        margin-top: 50px;
+        width: 80%;
+    }
+    .carterInfo{
+        width: 80%;
+    }
+    .top-bar{
+        height: 140px;
+    }
+    .welcome{
+
+    }
+    .galleryBtn{
+        margin-left:10px;
+    }
+    .selections{
+        width: 80%;
+    }
+    .iFrameSelection{
+        clear: left;
+        margin-left: 0;
+
+    }
+    .leftColumn, .rightColumn {
+        width: 100%;
+        padding: 0;
+    }
+
+}
 
 
 

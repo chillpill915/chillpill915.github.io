@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>myWritings</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<header>
+    <div class="top-bar">
+        <div class="logo"><a href="index.html"><img src=images/logo.PNG></a></div>
+        <ul class="menu">
+            <li><a href="Reads.html">Materials</a></li>
+            <li><a href="myWritings.html">Writings</a></li>
+            <li><a href="Gallery.html">Paintings</a></li>
+            <li><a href="about.html">About</a></li>
+        </ul>
+    </div>
+</header>
+<section class="choicePanel">
+    <div class="Selections">
+        <h1>Personal Works</h1>
+            <select id="mySelect"; onchange=selectWork(value)>
+                <option value="" disabled selected>Select:</option>
+                <option value="Writings/1st.txt">1st Chorus</option>
+                <option value="Writings/2nd.txt">2nd Chorus</option>
+                <option value="Writings/3rd.txt">3rd Chorus</option>
+            </select>
+    </div>
+    <div class="iFrameSelection">
+        <iframe id="myFrame" src="myWritings.txt"></iframe>
+        <pre id = "show"></pre>
+    </div>
+</section>
+<script>
+    function selectWork(value){
+        document.getElementById("myFrame").src = value;
+    }
+</script>
+</body>
+</html>

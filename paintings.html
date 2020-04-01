@@ -1,134 +1,284 @@
 <html>
   <head>
-    <title>Paintings</title>
-    <link href="style.css" rel="stylesheet" type="text/css">
+	  <meta charset="UTF-8">
+	  <title>Paintings</title>
+	  <link href="style.css" rel="stylesheet" type="text/css">
     <meta name="viewport" content="width=device-width,initial-scale=1">
   </head>
   <body>
     <header>
-      <div class = "nav-bar">
-	<a href="index.html"><img src="images/logo.PNG" class "logo"></a>
-
-	<ul class = "menu">
-	  <li><a href="about.html">about</a></li>
-	  <li><a href="#">paintings</a>
-	    <ul>
-	      <li><a href="paintings.html">2008</a></li>
-	      <li><a href="#">2009</a></li>
-	      <li><a href="#">2010</a></li>
-	      <li><a href="#">2011</a></li>
-	    </ul>
-	  </li>
-	  <li><a href="#">works on paper</a>
-	     <ul>
-	      <li><a href="#">2008</a></li>
-	      <li><a href="#">2009</a></li>
-	      <li><a href="#">2010</a></li>
-	      <li><a href="#">2011</a></li>
-	    </ul>
-	  </li>
-	  <li><a href="#">installations</a></li>
-	</ul>
-      </div>
+		<div class="top-bar">
+			<div class="logo"><a href="index.html"><img src=images/logo.PNG></a></div>
+			<ul class="menu">
+				<li><a href="Reads.html">Materials</a></li>
+				<li><a href="myWritings.html">Writings</a></li>
+				<li><a href="Gallery.html">Paintings</a></li>
+				<li><a href="about.html">About</a></li>
+			</ul>
+		</div>
     </header>
-    
-    <!-- Container for the image gallery -->
-    <div class="container">
+	<!--    &lt;!&ndash; Container for the image gallery &ndash;&gt;
+            <div class="container">
 
-      <!-- Full-width images with number text -->
-      <div class="mySlides">
-	<div class="numbertext">1 / 6</div>
-	<img src="images/main.jpg" style="width:100%">
-      </div>
+              &lt;!&ndash; Full-width images with number text &ndash;&gt;
+              <div class="mySlides">
+                  <div class="numberText">1 / 6</div>
+                  <img class="kevin" src="images/main.jpg" >
+                  <iframe src="Readings/1st.txt" ></iframe>
+              </div>
 
-      <div class="mySlides">
-	<div class="numbertext">2 / 6</div>
-	<img src="images/main.jpg" style="width:100%">
-      </div>
+              <div class="mySlides">
+                <div class="numberText">2 / 6</div>
+                <img src="images/jack.jpg" >
+              </div>
 
-      <div class="mySlides">
-	<div class="numbertext">3 / 6</div>
-	<img src="images/main.jpg" style="width:100%">
-      </div>
+              <div class="mySlides">
+                <div class="numberText">3 / 6</div>
+                <img src="images/3.jpg" >
+              </div>
 
-      <div class="mySlides">
-	<div class="numbertext">4 / 6</div>
-	<img src="images/main.jpg" style="width:100%">
-      </div>
+              <div class="mySlides">
+                <div class="numberText">4 / 6</div>
+                <img src="images/4.jpg">
+              </div>
 
-      <div class="mySlides">
-	<div class="numbertext">5 / 6</div>
-	<img src="images/main.jpg" style="width:100%">
-      </div>
+              <div class="mySlides">
+                <div class="numberText">5 / 6</div>
+                <img src="images/5.jpg" >
+              </div>
 
-      <div class="mySlides">
-	<div class="numbertext">6 / 6</div>
-	<img src="images/main.jpg" style="width:100%">
-      </div>
+              <div class="mySlides">
+                <div class="numberText">6 / 6</div>
+                <img src="images/6.jpg" >
+              </div>
 
-      <!-- Next and previous buttons -->
-      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+              &lt;!&ndash; Next and previous buttons &ndash;&gt;
+              <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+              <a class="next" onclick="plusSlides(1)">&#10095;</a>
 
-      <!-- Image text -->
-      <div class="caption-container">
-	<p id="caption"></p>
-      </div>
+              &lt;!&ndash; Image text &ndash;&gt;
+              <div class="caption-container">
+                <p id="caption"></p>
+              </div>
 
-      <!-- Thumbnail images -->
-      <div class="row">
-	<div class="column">
-	  <img class="demo cursor" src="images/main.jpg" style="width:100%" onclick="currentSlide(1)" alt="The Woods">
-	</div>
-	<div class="column">
-	  <img class="demo cursor" src="images/main.jpg" style="width:100%" onclick="currentSlide(2)" alt="Cinque Terre">
-	</div>
-	<div class="column">
-	  <img class="demo cursor" src="images/main.jpg" style="width:100%" onclick="currentSlide(3)" alt="Mountains and fjords">
-	</div>
-	<div class="column">
-	  <img class="demo cursor" src="images/main.jpg" style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">
-	</div>
-	<div class="column">
-	  <img class="demo cursor" src="images/main.jpg" style="width:100%" onclick="currentSlide(5)" alt="Nature and sunrise">
-	</div>
-	<div class="column">
-	  <img class="demo cursor" src="images/main.jpg" style="width:100%" onclick="currentSlide(6)" alt="Snowy Mountains">
-	</div>
-      </div>
-    </div>
-<script>
-  var slideIndex = 1;
-  showSlides(slideIndex);
+              &lt;!&ndash; Thumbnail images &ndash;&gt;
+              <div class="row">
+                <div class="column">
+                      <img class="demo cursor" src="images/main.jpg" style="width:100%" onclick="currentSlide(1)" alt="The Woods">
+                </div>
+                <div class="column">
+                      <img class="demo cursor" src="images/jack.jpg" style="width:100%" onclick="currentSlide(2)" alt="Cinque Terre">
+                </div>
+                <div class="column">
+                      <img class="demo cursor" src="images/3.jpg" style="width:100%" onclick="currentSlide(3)" alt="Mountains and fjords">
+                </div>
+                <div class="column">
+                      <img class="demo cursor" src="images/4.jpg" style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">
+                </div>
+                <div class="column">
+                      <img class="demo cursor" src="images/5.jpg" style="width:100%" onclick="currentSlide(5)" alt="Nature and sunrise">
+                </div>
+                <div class="column">
+                      <img class="demo cursor" src="images/6.jpg" style="width:100%" onclick="currentSlide(6)" alt="Snowy Mountains">
+                </div>
+              </div>
+            </div>
+        <div class="container2">
 
-  // Next/previous controls
-  function plusSlides(n) {
-      showSlides(slideIndex += n);
-  }
+        </div>
+        <script>
+      var slideIndex = 1;
+      showSlides(slideIndex);
 
-  // Thumbnail image controls
-  function currentSlide(n) {
-      showSlides(slideIndex = n);
-  }
-
-  function showSlides(n) {
-      var i;
-      var slides = document.getElementsByClassName("mySlides");
-      var dots = document.getElementsByClassName("demo");
-      var captionText = document.getElementById("caption");
-      if (n > slides.length) {slideIndex = 1}
-      if (n < 1) {slideIndex = slides.length}
-      for (i = 0; i < slides.length; i++) {
-	  slides[i].style.display = "none";
+      // Next/previous controls
+      function plusSlides(n) {
+          showSlides(slideIndex += n);
       }
-      for (i = 0; i < dots.length; i++) {
-	  dots[i].className = dots[i].className.replace(" active", "");
-      }
-      slides[slideIndex-1].style.display = "block";
-      dots[slideIndex-1].className += " active";
-      captionText.innerHTML = dots[slideIndex-1].alt;
-  }
-  </script>
 
+      // Thumbnail image controls
+      function currentSlide(n) {
+          showSlides(slideIndex = n);
+      }
+
+      function showSlides(n) {
+          var i;
+          var slides = document.getElementsByClassName("mySlides");
+          var dots = document.getElementsByClassName("demo");
+          var captionText = document.getElementById("caption");
+          if (n > slides.length) {slideIndex = 1}
+          if (n < 1) {slideIndex = slides.length}
+          for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+          }
+          for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex-1].style.display = "block";
+          dots[slideIndex-1].className += " active";
+          captionText.innerHTML = dots[slideIndex-1].alt;
+      }
+      </script>-->
+
+	<button onclick="topFunction()" id="topBtn" title="Go to top">Top</button>
+
+
+	<div class="grid" id="pictureGrid">
+		<button class="gridBtn" onclick="one()">1</button>
+		<button class="gridBtn" onclick="two()">2</button>
+		<button class="gridBtn" onclick="three()">3</button>
+		<button class="gridBtn active" onclick="four()">4</button>
+	</div>
+	<!-- Photo Grid -->
+	<div class="row">
+		<div class="column">
+			<img class="art" id="0" src="images/wedding.jpg" alt="wedding" onclick = sendImg(src,alt,id) style="width:100%">
+			<img class="art" id="1" src="images/rocks.jpg" alt="rocks" onclick = sendImg(src,alt,id) style="width:100%">
+			<img class="art" id="2" src="images/falls2.jpg" alt="falls" onclick = sendImg(src,alt,id) style="width:100%">
+			<img class="art" id="3" src="images/paris.jpg" alt="paris" onclick = sendImg(src,alt,id) style="width:100%">
+			<img class="art" id="4" src="images/nature.jpg" alt="wedding" onclick = sendImg(src,alt,id) style="width:100%">
+			<img class="art" id="5" src="images/mist.jpg" alt="wedding" onclick = sendImg(src,alt,id) style="width:100%">
+			<img class="art" id="6" src="images/paris.jpg" alt="wedding" onclick = sendImg(src,alt,id) style="width:100%">
+		</div>
+		<div class="column">
+			<img class="art" id="7" src="images/main.jpg" alt="art" onclick = sendImg(src,alt,id) style="width:100%">
+			<img class="art" id="8" src="images/jack.jpg" alt="wedding" onclick = sendImg(src,alt) style="width:100%">
+			<img class="art" id="9" src="images/3.jpg" alt="wedding" onclick = sendImg(src,alt,id) style="width:100%">
+			<img class="art" id="10" src="images/4.jpg" alt="wedding" onclick = sendImg(src,alt,id) style="width:100%">
+			<img class="art" id="11" src="images/5.jpg" alt="wedding" onclick = sendImg(src,alt,id) style="width:100%">
+			<img class="art" id="12" src="images/6.jpg" alt="wedding" onclick = sendImg(src,alt,id) style="width:100%">
+		</div>
+		<div class="column">
+			<img class="art" id="13" src="images/main.jpg" alt="wedding" onclick = sendImg(src,alt,id) style="width:100%">
+			<img class="art" id="14" src="images/jack.jpg" alt="wedding" onclick = sendImg(src,alt,id) style="width:100%">
+			<img class="art" id="15" src="images/3.jpg" alt="wedding" onclick = sendImg(src,alt,id) style="width:100%">
+			<img class="art" id="16" src="images/4.jpg" alt="wedding" onclick = sendImg(src,alt,id) style="width:100%">
+			<img class="art" id="17" src="images/5.jpg" alt="wedding" onclick = sendImg(src,alt,id) style="width:100%">
+			<img class="art" id="18" src="images/6.jpg" alt="wedding" onclick = sendImg(src,alt,id) style="width:100%">
+			<img class="art" id="19" src="images/marble.jpg" alt="wedding" onclick = sendImg(src,alt,id) style="width:100%">
+		</div>
+		<div class="column">
+			<img class="art" id="20" src="images/main.jpg" alt="wedding" onclick = sendImg(src,alt,id) style="width:100%">
+			<img class="art" id="21" src="images/jack.jpg" alt="wedding" onclick = sendImg(src,alt,id) style="width:100%">
+			<img class="art" id="22" src="images/3.jpg" alt="wedding" onclick = sendImg(src,alt,id) style="width:100%">
+			<img class="art" id="23" src="images/4.jpg" alt="wedding" onclick = sendImg(src,alt,id) style="width:100%">
+			<img class="art" id="24" src="images/5.jpg" alt="wedding" onclick = sendImg(src,alt,id) style="width:100%">
+			<img class="art" id="25" src="images/6.jpg" alt="wedding" onclick = sendImg(src,alt,id) style="width:100%">
+		</div>
+	</div>
+	<!-- The Modal -->
+	<div id="myModal" class="modal">
+		<span class="close">&times;</span>
+		<span class="prev"><</span>
+		<span class="next">></span>
+		<!--<a class="prev" onclick="nextModal(-1)">&#10094;</a>-->
+		<!--<a class="next" onclick="nextModal(1)">&#10095;</a>-->
+		<img class="modal-content" id="img01">
+		<div id="caption"></div>
+	</div>
+	  <script>
+		  //initialize variables to get modal information
+		  var photoPosition;
+		  var modal = document.getElementById("myModal");
+		  var modalImg = document.getElementById("img01");
+		  var captionText = document.getElementById("caption");
+		  //function to show and send img information to modal
+
+		  function sendImg(src,alt,position){
+		      modal.style.display = "block";
+		      modalImg.src = src;
+		      captionText.innerHTML = alt;
+		      photoPosition = position;
+		  }
+		  //get the <span> element that closes the modal
+		  var span = document.getElementsByClassName("close")[0];
+		  //when the user clicks <span> (x), the modal closes
+          span.onclick = function(){
+              modal.style.display = "none";
+		  }
+		  var prev = document.getElementsByClassName("prev")[0];
+          prev.onclick = function(){
+              var i = parseInt(photoPosition)-1;
+              var id = i.toString();
+              var prevPhoto = document.getElementById(id);
+              sendImg(prevPhoto.src,prevPhoto.alt,prevPhoto.id)
+
+		  }
+		  var next = document.getElementsByClassName("next")[0];
+          next.onclick = function(){
+              var i = parseInt(photoPosition)+1;
+              var id = i.toString();
+              var nextPhoto = document.getElementById(id);
+              sendImg(nextPhoto.src,nextPhoto.alt,nextPhoto.id)
+		  }
+
+
+
+
+
+		  // Get the elements with class="column"
+		  var elements = document.getElementsByClassName("column");
+		  // Declare a loop variable
+		  var i;
+		  // Full-width images
+		  function one() {
+			  for (i = 0; i < elements.length; i++) {
+				  elements[i].style.msFlex = "100%";  // IE10
+				  elements[i].style.flex = "100%";
+			  }
+		  }
+
+
+		  // Two images side by side
+		  function two() {
+			  for (i = 0; i < elements.length; i++) {
+				  elements[i].style.msFlex = "50%";  // IE10
+				  elements[i].style.flex = "50%";
+			  }
+		  }
+
+		  function three(){
+		      for (i=0; i<elements.length; i++){
+		          elements[i].style.msFlex = "33.33%";
+		          elements[i].style.flex = "33.33%";
+			  }
+		  }
+		  // Four images side by side
+		  function four() {
+			  for (i = 0; i < elements.length; i++) {
+				  elements[i].style.msFlex = "25%";  // IE10
+				  elements[i].style.flex = "25%";
+			  }
+		  }
+
+		  // Add active class to the current button (highlight it)
+		  var header = document.getElementById("pictureGrid");
+		  var btns = header.getElementsByClassName("gridBtn");
+		  for (var i = 0; i < btns.length; i++) {
+              btns[i].addEventListener("click", function () {
+                  var current = document.getElementsByClassName("active");
+                  current[0].className = current[0].className.replace(" active", "");
+                  this.className += " active";
+              });
+          }
+
+          //Get the button
+          var myButton = document.getElementById("topBtn");
+          // When the user scrolls down 20px from the top of the document, show the button
+          window.onscroll = function() {scrollFunction()};
+
+          function scrollFunction() {
+              if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                  myButton.style.display = "block";
+              } else {
+                  myButton.style.display = "none";
+              }
+          }
+
+          // When the user clicks on the button, scroll to the top of the document
+          function topFunction() {
+              document.body.scrollTop = 0;
+              document.documentElement.scrollTop = 0;
+          }
+	  </script>
   </body>
 </html>
