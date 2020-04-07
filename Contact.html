@@ -16,6 +16,14 @@
             <li><a href="Gallery.html">Paintings</a></li>
             <li><a href="about.html">About</a></li>
         </ul>
+        <button class="icon" onclick="dropdownFunction()">&#9776;</button>
+        <div class="dropdown-content" id="myDropdown">
+            <a href="index.html">Home</a>
+            <a href="Reads.html">Materials</a>
+            <a href="myWritings.html">Writings</a>
+            <a href="Gallery.html">Paintings</a>
+            <a href="about.html">About</a>
+        </div>
     </div>
 </header>
 <div class="contactContainer" >
@@ -31,5 +39,10 @@
         <p>say a little something. plug some info yada yada yada yada</p>
     </div>
 </div>
+<script>
+    function dropdownFunction(){
+        document.getElementById("myDropdown").classList.toggle("show");
+    }
+</script>
 </body>
 </html>

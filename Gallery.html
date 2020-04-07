@@ -16,6 +16,14 @@
             <li><a href="Gallery.html">Paintings</a></li>
             <li><a href="about.html">About</a></li>
         </ul>
+        <button class="icon" onclick="dropdownFunction()">&#9776;</button>
+        <div class="dropdown-content" id="myDropdown">
+            <a href="index.html">Home</a>
+            <a href="Reads.html">Materials</a>
+            <a href="myWritings.html">Writings</a>
+            <a href="Gallery.html">Paintings</a>
+            <a href="about.html">About</a>
+        </div>
     </div>
 </header>
     <div class="GalleryPage">
@@ -32,67 +40,44 @@
 
         <div class="galleryRow">
             <div class="galleryColumn early">
+            <div class="gallery" id="sending">
+                <img src="images/installations/DSCN5438.jpg" alt="installations" style="width:100%">
+                <h4>Installations</h4>
+                <p>Lorem ipsum dolor..</p>
+            </div>
+        </div>
+        <div class="galleryColumn early">
             <div class="gallery">
-                <img src="images/nature.jpg" alt="nature" style="width:100%">
-                <h4>Mountains</h4>
+                <a href="paintings.html"><img src="images/untitled/IMG_1648.jpg" alt="untitled" style="width:100%"></a>
+                <h4>Untitled Works</h4>
                 <p>Lorem ipsum dolor..</p>
             </div>
         </div>
             <div class="galleryColumn early">
                 <div class="gallery">
-                    <a href="paintings.html"><img src="images/nature.jpg" alt="nature" style="width:100%"></a>
-                    <h4>Mountains</h4>
+                    <a href="paintings.html"><img src="images/undone/11.jpg" alt="undone" style="width:100%"></a>
+                    <h4>Undone</h4>
                     <p>Lorem ipsum dolor..</p>
                 </div>
             </div>
             <div class="galleryColumn early">
                 <div class="gallery">
-                    <img src="images/nature.jpg" alt="nature" style="width:100%">
-                    <h4>Mountains</h4>
-                    <p>Lorem ipsum dolor..</p>
-                </div>
-            </div>
-
-            <div class="galleryColumn early">
-                <div class="gallery">
-                    <img src="images/marble.jpg" alt="cars" style="width:100%">
-                    <h4>falls</h4>
+                    <img src="images/orchestra/IMG_0223.jpg" alt="orchestra" style="width:100%">
+                    <h4>Orchestra pt1</h4>
                     <p>Lorem ipsum dolor..</p>
                 </div>
             </div>
             <div class="galleryColumn school">
                 <div class="gallery">
-                    <img src="images/falls2.jpg" alt="cars" style="width:100%">
-                    <h4>falls</h4>
+                    <img src="images/nature/img__70.jpg" alt="cars" style="width:100%">
+                    <h4>Nature</h4>
                     <p>Lorem ipsum dolor..</p>
                 </div>
             </div>
             <div class="galleryColumn school">
                 <div class="gallery">
-                    <img src="images/jack.jpg" alt="cars" style="width:100%">
-                    <h4>falls</h4>
-                    <p>Lorem ipsum dolor..</p>
-                </div>
-            </div>
-
-            <div class="galleryColumn professional">
-                <div class="gallery">
-                    <img src="images/rocks.jpg" alt="people" style="width:100%">
-                    <h4>fucks</h4>
-                    <p>Lorem ipsum dolor..</p>
-                </div>
-            </div>
-            <div class="galleryColumn professional">
-                <div class="gallery">
-                    <img src="images/wedding.jpg" alt="people" style="width:100%">
-                    <h4>fucks</h4>
-                    <p>Lorem ipsum dolor..</p>
-                </div>
-            </div>
-            <div class="galleryColumn professional">
-                <div class="gallery">
-                    <img src="images/nature.jpg" alt="people" style="width:100%">
-                    <h4>fucks</h4>
+                    <img src="images/mythology/IMG_1607.jpg" alt="cars" style="width:100%">
+                    <h4>Mythology</h4>
                     <p>Lorem ipsum dolor..</p>
                 </div>
             </div>
@@ -100,6 +85,9 @@
     </div>
 
 <script>
+    function dropdownFunction(){
+        document.getElementById("myDropdown").classList.toggle("show");
+    }
     filterSelection("all")
     function filterSelection(c){
         var x, i;

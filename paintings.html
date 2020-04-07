@@ -14,168 +14,74 @@
 				<li><a href="myWritings.html">Writings</a></li>
 				<li><a href="Gallery.html">Paintings</a></li>
 				<li><a href="about.html">About</a></li>
-			</ul>
+      </ul>
+      <button class="icon" onclick="dropdownFunction()">&#9776;</button>
+      <div class="dropdown-content" id="myDropdown">
+          <a href="index.html">Home</a>
+          <a href="Reads.html">Materials</a>
+          <a href="myWritings.html">Writings</a>
+          <a href="Gallery.html">Paintings</a>
+          <a href="about.html">About</a>
+      </div>
 		</div>
     </header>
-	<!--    &lt;!&ndash; Container for the image gallery &ndash;&gt;
-            <div class="container">
-
-              &lt;!&ndash; Full-width images with number text &ndash;&gt;
-              <div class="mySlides">
-                  <div class="numberText">1 / 6</div>
-                  <img class="kevin" src="images/main.jpg" >
-                  <iframe src="Readings/1st.txt" ></iframe>
-              </div>
-
-              <div class="mySlides">
-                <div class="numberText">2 / 6</div>
-                <img src="images/jack.jpg" >
-              </div>
-
-              <div class="mySlides">
-                <div class="numberText">3 / 6</div>
-                <img src="images/3.jpg" >
-              </div>
-
-              <div class="mySlides">
-                <div class="numberText">4 / 6</div>
-                <img src="images/4.jpg">
-              </div>
-
-              <div class="mySlides">
-                <div class="numberText">5 / 6</div>
-                <img src="images/5.jpg" >
-              </div>
-
-              <div class="mySlides">
-                <div class="numberText">6 / 6</div>
-                <img src="images/6.jpg" >
-              </div>
-
-              &lt;!&ndash; Next and previous buttons &ndash;&gt;
-              <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-              <a class="next" onclick="plusSlides(1)">&#10095;</a>
-
-              &lt;!&ndash; Image text &ndash;&gt;
-              <div class="caption-container">
-                <p id="caption"></p>
-              </div>
-
-              &lt;!&ndash; Thumbnail images &ndash;&gt;
-              <div class="row">
-                <div class="column">
-                      <img class="demo cursor" src="images/main.jpg" style="width:100%" onclick="currentSlide(1)" alt="The Woods">
-                </div>
-                <div class="column">
-                      <img class="demo cursor" src="images/jack.jpg" style="width:100%" onclick="currentSlide(2)" alt="Cinque Terre">
-                </div>
-                <div class="column">
-                      <img class="demo cursor" src="images/3.jpg" style="width:100%" onclick="currentSlide(3)" alt="Mountains and fjords">
-                </div>
-                <div class="column">
-                      <img class="demo cursor" src="images/4.jpg" style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">
-                </div>
-                <div class="column">
-                      <img class="demo cursor" src="images/5.jpg" style="width:100%" onclick="currentSlide(5)" alt="Nature and sunrise">
-                </div>
-                <div class="column">
-                      <img class="demo cursor" src="images/6.jpg" style="width:100%" onclick="currentSlide(6)" alt="Snowy Mountains">
-                </div>
-              </div>
-            </div>
-        <div class="container2">
-
-        </div>
-        <script>
-      var slideIndex = 1;
-      showSlides(slideIndex);
-
-      // Next/previous controls
-      function plusSlides(n) {
-          showSlides(slideIndex += n);
-      }
-
-      // Thumbnail image controls
-      function currentSlide(n) {
-          showSlides(slideIndex = n);
-      }
-
-      function showSlides(n) {
-          var i;
-          var slides = document.getElementsByClassName("mySlides");
-          var dots = document.getElementsByClassName("demo");
-          var captionText = document.getElementById("caption");
-          if (n > slides.length) {slideIndex = 1}
-          if (n < 1) {slideIndex = slides.length}
-          for (i = 0; i < slides.length; i++) {
-          slides[i].style.display = "none";
-          }
-          for (i = 0; i < dots.length; i++) {
-          dots[i].className = dots[i].className.replace(" active", "");
-          }
-          slides[slideIndex-1].style.display = "block";
-          dots[slideIndex-1].className += " active";
-          captionText.innerHTML = dots[slideIndex-1].alt;
-      }
-      </script>-->
-
-	<button onclick="topFunction()" id="topBtn" title="Go to top">Top</button>
-
-
-	<div class="grid" id="pictureGrid">
-		<button class="gridBtn" onclick="one()">1</button>
-		<button class="gridBtn" onclick="two()">2</button>
-		<button class="gridBtn" onclick="three()">3</button>
-		<button class="gridBtn active" onclick="four()">4</button>
-	</div>
-	<!-- Photo Grid -->
-	<div class="row">
-		<div class="column">
-			<img class="art" id="0" src="images/wedding.jpg" alt="wedding" onclick = sendImg(src,alt,id) style="width:100%">
-			<img class="art" id="1" src="images/rocks.jpg" alt="rocks" onclick = sendImg(src,alt,id) style="width:100%">
-			<img class="art" id="2" src="images/falls2.jpg" alt="falls" onclick = sendImg(src,alt,id) style="width:100%">
-			<img class="art" id="3" src="images/paris.jpg" alt="paris" onclick = sendImg(src,alt,id) style="width:100%">
-			<img class="art" id="4" src="images/nature.jpg" alt="wedding" onclick = sendImg(src,alt,id) style="width:100%">
-			<img class="art" id="5" src="images/mist.jpg" alt="wedding" onclick = sendImg(src,alt,id) style="width:100%">
-			<img class="art" id="6" src="images/paris.jpg" alt="wedding" onclick = sendImg(src,alt,id) style="width:100%">
-		</div>
-		<div class="column">
-			<img class="art" id="7" src="images/main.jpg" alt="art" onclick = sendImg(src,alt,id) style="width:100%">
-			<img class="art" id="8" src="images/jack.jpg" alt="wedding" onclick = sendImg(src,alt) style="width:100%">
-			<img class="art" id="9" src="images/3.jpg" alt="wedding" onclick = sendImg(src,alt,id) style="width:100%">
-			<img class="art" id="10" src="images/4.jpg" alt="wedding" onclick = sendImg(src,alt,id) style="width:100%">
-			<img class="art" id="11" src="images/5.jpg" alt="wedding" onclick = sendImg(src,alt,id) style="width:100%">
-			<img class="art" id="12" src="images/6.jpg" alt="wedding" onclick = sendImg(src,alt,id) style="width:100%">
-		</div>
-		<div class="column">
-			<img class="art" id="13" src="images/main.jpg" alt="wedding" onclick = sendImg(src,alt,id) style="width:100%">
-			<img class="art" id="14" src="images/jack.jpg" alt="wedding" onclick = sendImg(src,alt,id) style="width:100%">
-			<img class="art" id="15" src="images/3.jpg" alt="wedding" onclick = sendImg(src,alt,id) style="width:100%">
-			<img class="art" id="16" src="images/4.jpg" alt="wedding" onclick = sendImg(src,alt,id) style="width:100%">
-			<img class="art" id="17" src="images/5.jpg" alt="wedding" onclick = sendImg(src,alt,id) style="width:100%">
-			<img class="art" id="18" src="images/6.jpg" alt="wedding" onclick = sendImg(src,alt,id) style="width:100%">
-			<img class="art" id="19" src="images/marble.jpg" alt="wedding" onclick = sendImg(src,alt,id) style="width:100%">
-		</div>
-		<div class="column">
-			<img class="art" id="20" src="images/main.jpg" alt="wedding" onclick = sendImg(src,alt,id) style="width:100%">
-			<img class="art" id="21" src="images/jack.jpg" alt="wedding" onclick = sendImg(src,alt,id) style="width:100%">
-			<img class="art" id="22" src="images/3.jpg" alt="wedding" onclick = sendImg(src,alt,id) style="width:100%">
-			<img class="art" id="23" src="images/4.jpg" alt="wedding" onclick = sendImg(src,alt,id) style="width:100%">
-			<img class="art" id="24" src="images/5.jpg" alt="wedding" onclick = sendImg(src,alt,id) style="width:100%">
-			<img class="art" id="25" src="images/6.jpg" alt="wedding" onclick = sendImg(src,alt,id) style="width:100%">
-		</div>
-	</div>
-	<!-- The Modal -->
-	<div id="myModal" class="modal">
-		<span class="close">&times;</span>
-		<span class="prev"><</span>
-		<span class="next">></span>
-		<!--<a class="prev" onclick="nextModal(-1)">&#10094;</a>-->
-		<!--<a class="next" onclick="nextModal(1)">&#10095;</a>-->
-		<img class="modal-content" id="img01">
+	  <button onclick="topFunction()" id="topBtn" title="Go to top">Top</button>
+	  <div class="grid" id="pictureGrid">
+		  <button class="gridBtn" onclick="one()">1</button>
+		  <button class="gridBtn" onclick="two()">2</button>
+		  <button class="gridBtn" onclick="three()">3</button>
+		  <button class="gridBtn active" onclick="four()">4</button>
+	  </div>
+	  <!-- Photo Grid -->
+	  <div class="row">
+		  <div class="column">
+			  <img class="art" id="0" src="images/wedding.jpg" alt="wedding" onclick = sendImg(src,alt,id) style="width:100%">
+			  <img class="art" id="1" src="images/rocks.jpg" alt="rocks" onclick = sendImg(src,alt,id) style="width:100%">
+			  <img class="art" id="2" src="images/falls2.jpg" alt="falls" onclick = sendImg(src,alt,id) style="width:100%">
+			  <img class="art" id="3" src="images/paris.jpg" alt="paris" onclick = sendImg(src,alt,id) style="width:100%">
+			  <img class="art" id="4" src="images/nature.jpg" alt="wedding" onclick = sendImg(src,alt,id) style="width:100%">
+			  <img class="art" id="5" src="images/mist.jpg" alt="wedding" onclick = sendImg(src,alt,id) style="width:100%">
+			  <img class="art" id="6" src="images/paris.jpg" alt="wedding" onclick = sendImg(src,alt,id) style="width:100%">
+		  </div>
+		  <div class="column">
+			  <img class="art" id="7" src="images/main.jpg" alt="art" onclick = sendImg(src,alt,id) style="width:100%">
+			  <img class="art" id="8" src="images/jack.jpg" alt="wedding" onclick = sendImg(src,alt) style="width:100%">
+			  <img class="art" id="9" src="images/3.jpg" alt="wedding" onclick = sendImg(src,alt,id) style="width:100%">
+			  <img class="art" id="10" src="images/4.jpg" alt="wedding" onclick = sendImg(src,alt,id) style="width:100%">
+			  <img class="art" id="11" src="images/5.jpg" alt="wedding" onclick = sendImg(src,alt,id) style="width:100%">
+			  <img class="art" id="12" src="images/6.jpg" alt="wedding" onclick = sendImg(src,alt,id) style="width:100%">
+		  </div>
+		  <div class="column">
+			  <img class="art" id="13" src="images/main.jpg" alt="wedding" onclick = sendImg(src,alt,id) style="width:100%">
+			  <img class="art" id="14" src="images/jack.jpg" alt="wedding" onclick = sendImg(src,alt,id) style="width:100%">
+			  <img class="art" id="15" src="images/3.jpg" alt="wedding" onclick = sendImg(src,alt,id) style="width:100%">
+			  <img class="art" id="16" src="images/4.jpg" alt="wedding" onclick = sendImg(src,alt,id) style="width:100%">
+			  <img class="art" id="17" src="images/5.jpg" alt="wedding" onclick = sendImg(src,alt,id) style="width:100%">
+			  <img class="art" id="18" src="images/6.jpg" alt="wedding" onclick = sendImg(src,alt,id) style="width:100%">
+		  </div>
+		  <div class="column">
+			  <img class="art" id="20" src="images/main.jpg" alt="wedding" onclick = sendImg(src,alt,id) style="width:100%">
+			  <img class="art" id="21" src="images/jack.jpg" alt="wedding" onclick = sendImg(src,alt,id) style="width:100%">
+			  <img class="art" id="22" src="images/3.jpg" alt="wedding" onclick = sendImg(src,alt,id) style="width:100%">
+			  <img class="art" id="23" src="images/4.jpg" alt="wedding" onclick = sendImg(src,alt,id) style="width:100%">
+			  <img class="art" id="24" src="images/5.jpg" alt="wedding" onclick = sendImg(src,alt,id) style="width:100%">
+			  <img class="art" id="25" src="images/6.jpg" alt="wedding" onclick = sendImg(src,alt,id) style="width:100%">
+      </div>
+	  </div>
+	  <!-- The Modal -->
+	  <div id="myModal" class="modal">
+		  <span class="close">&times;</span>
+		  <span class="prev"><</span>
+		  <span class="next">></span>
+		  <!--<a class="prev" onclick="nextModal(-1)">&#10094;</a>-->
+		  <!--<a class="next" onclick="nextModal(1)">&#10095;</a>-->
+		  <img class="modal-content" id="img01">
 		<div id="caption"></div>
-	</div>
+	  </div>
 	  <script>
+      function dropdownFunction(){
+        document.getElementById("myDropdown").classList.toggle("show");
+      }
 		  //initialize variables to get modal information
 		  var photoPosition;
 		  var modal = document.getElementById("myModal");

@@ -4,18 +4,28 @@
 <head>
   <title>Main Page</title>
   <link href="style.css" rel="stylesheet" type="text/css">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
   <header>
-	  <div class="top-bar">
-		  <div class="logo"><a href="index.html"><img src=images/logo.PNG></a></div>
-		  <ul class="menu">
-			  <li><a href="Reads.html">Materials</a></li>
-			  <li><a href="myWritings.html">Writings</a></li>
-			  <li><a href="Gallery.html">Paintings</a></li>
-			  <li><a href="about.html">About</a></li>
-		  </ul>
-	  </div>
+	  <div class="top-bar" id="Topnav">
+          <div class="logo"><a href="index.html"><img src=images/logo.PNG></a></div>
+          <ul id="mainMenu" class="menu">
+              <li><a href="Reads.html">Materials</a></li>
+              <li><a href="myWritings.html">Writings</a></li>
+              <li><a href="Gallery.html">Paintings</a></li>
+              <li><a href="about.html">About</a></li>
+          </ul>
+          <button class="icon" onclick="dropdownFunction()">&#9776;</button>
+          <div class="dropdown-content" id="myDropdown">
+              <a href="index.html">Home</a>
+              <a href="Reads.html">Materials</a>
+              <a href="myWritings.html">Writings</a>
+              <a href="Gallery.html">Paintings</a>
+              <a href="about.html">About</a>
+          </div>
+      </div>
+ 
   </header>
   <div class = "welcome">
 	  <h1>Welcome</h1>
@@ -25,26 +35,10 @@
 
   </div>
 
-  <button onclick="topFunction()" id="topBtn" title="Go to top">Top</button>
+    <button onclick="topFunction()" id="topBtn" title="Go to top">Top</button>
   <script>
-      //Get the button
-      var mybutton = document.getElementById("topBtn");
-
-      // When the user scrolls down 20px from the top of the document, show the button
-      window.onscroll = function() {scrollFunction()};
-
-      function scrollFunction() {
-          if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-              mybutton.style.display = "block";
-          } else {
-              mybutton.style.display = "none";
-          }
-      }
-
-      // When the user clicks on the button, scroll to the top of the document
-      function topFunction() {
-          document.body.scrollTop = 0;
-          document.documentElement.scrollTop = 0;
+      function dropdownFunction(){
+          document.getElementById("myDropdown").classList.toggle("show");
       }
   </script>
 

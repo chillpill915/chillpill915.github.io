@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <title>myWritings</title>
     <link href="style.css" rel="stylesheet" type="text/css">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
 </head>
 <body>
 <header>
@@ -15,10 +17,18 @@
             <li><a href="Gallery.html">Paintings</a></li>
             <li><a href="about.html">About</a></li>
         </ul>
+        <button class="icon" onclick="dropdownFunction()">&#9776;</button>
+        <div class="dropdown-content" id="myDropdown">
+            <a href="index.html">Home</a>
+            <a href="Reads.html">Materials</a>
+            <a href="myWritings.html">Writings</a>
+            <a href="Gallery.html">Paintings</a>
+            <a href="about.html">About</a>
+        </div>
     </div>
 </header>
 <section class="choicePanel">
-    <div class="Selections">
+    <div class="workSelection">
         <h1>Personal Works</h1>
             <select id="mySelect"; onchange=selectWork(value)>
                 <option value="" disabled selected>Select:</option>
@@ -33,6 +43,9 @@
     </div>
 </section>
 <script>
+    function dropdownFunction(){
+        document.getElementById("myDropdown").classList.toggle("show");
+    }
     function selectWork(value){
         document.getElementById("myFrame").src = value;
     }
