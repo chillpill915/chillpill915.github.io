@@ -483,20 +483,20 @@ body{
         display: block;
         width: 100%;
         border: none;
-        background: rgba(0, 0, 0,0.5);
+        background: black;
         color:white;
         font-size: 45px;
         cursor: pointer;
         text-align: center;
     }
     .icon:hover{
-        background-color: #000;
+        background-color: rgba(0,0,0,0.9);
     }
     .dropdown-content{
         display: none;
         position: absolute;
         width: 100%;
-        background-color: rgba(0, 0, 0,0.5);
+        background-color: black;
         min-width: 160px;
         color: white;
         cursor: pointer;
@@ -512,9 +512,9 @@ body{
         letter-spacing: 2px;
     }
     .dropdown-content a:hover{
-        background-color: #000;
+        background-color: rgba(0,0,0,0.9);
     }
-    .show{display:block;}
+    .show{display: block;}
     .top-bar{
         overflow: hidden; 
         background-color: transparent;
