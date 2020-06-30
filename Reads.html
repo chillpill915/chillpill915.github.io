@@ -32,44 +32,22 @@
         <h1>Inspiring Works</h1>
         <select id="mySelect"; onchange=selectWork(value);>
             <option value="" disabled selected>Select: </option>
-            <option value="Readings/1st.txt">1st Chorus</option>
-            <option value="Readings/2nd.txt">2nd Chorus</option>
-            <option value="Readings/3rd.txt">3rd Chorus</option>
+            <option value="Readings/1st Chorus.txt">1st Chorus</option>
+            <option value="Readings/7th Chorus.txt">7th Chorus</option>
+            <option value="Readings/17th Chorus.txt">17th Chorus</option>
+            <option value="Readings/18th Chorus.txt">18th Chorus</option>
+            <option value="Readings/24th chorus.txt">24th Chorus</option>
+            <option value="Readings/28th Chorus.txt">28th Chorus</option>
         </select>
     </div>
     <div class="iFrameSelection">
         <iframe id="myFrame"></iframe>
+        <pre id= "show"></pre>
     </div>
 
     <button onclick="draw()">click me</button>
     <p id="demo"></p>
 </section>
-<script>
-    function dropdownFunction(){
-        document.getElementById("myDropdown").classList.toggle("show");
-    }    
-    function selectWork(value){
-        document.getElementById("myFrame").src = value;
-    }
-
-
-
-    function draw(){
-        var i=59;
-        var speed = 50;
-        document.getElementById("demo").innerHTML = "";
-        var myIFrame = document.getElementById('myFrame');
-        var text = myIFrame.contentWindow.document.body.innerHTML;
-        typeWriter();
-        function typeWriter(){
-            if(i<text.length-6){
-                document.getElementById("demo").innerHTML += text.charAt(i);
-                i++;
-                setTimeout(typeWriter, speed)
-                }
-            }
-    }
-
-</script>
+<script src=./script.js></script>
 </body>
 </html>

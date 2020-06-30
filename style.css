@@ -22,6 +22,9 @@ body{
 .logo{
     position: absolute;
 }
+.logo a{
+    cursor: grab;
+}
 .menu{
     list-style-type: none;
     margin: 0;
@@ -79,6 +82,14 @@ body{
     background-color: #aaa;
     width: 100%;
     padding: 20px;
+    
+}
+.social img{
+    height: 100%;
+    width:23%;
+}
+.books img{
+    height: 200px;
 }
 /* Add a card effect for articles */
 .card {
@@ -147,6 +158,11 @@ body{
 {
     font-size: 42px;
     margin: 25px;
+}
+@media screen and (min-width:750px){
+    .logoMobile{
+        display:none;
+    }
 }
 .indexBtn
 {
@@ -464,6 +480,21 @@ body{
  */
 @media screen and (max-width: 750px)
 {
+    /*index page*/
+    .welcome h1{
+        display:none;
+    }
+    .indexBtn{
+        margin-left: 20%;
+        
+    }
+    .logoMobile{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 40%;
+    }
+
     /*contact page*/
     .kevinInfo{
         margin-top: 50px;
@@ -502,6 +533,7 @@ body{
         cursor: pointer;
         text-align: center;
         z-index: 1;
+        transition: display 2s;
     }
     .dropdown-content a{
         color: white;
@@ -514,7 +546,9 @@ body{
     .dropdown-content a:hover{
         background-color: rgba(0,0,0,0.9);
     }
-    .show{display: block;}
+    .show{
+        display: block;
+    } 
     .top-bar{
         overflow: hidden; 
         background-color: transparent;
@@ -554,6 +588,13 @@ body{
     .leftColumn, .rightColumn{
         width: 100%;
         padding: 0;
+    }
+    .social img{
+        height:100%;
+    }
+    .books img{
+        width: auto;
+        margin-left: 10%;
     }
 
 }

@@ -2,6 +2,7 @@
 <html>
 
 <head>
+  <!-- libraries that span the entire project and do not rely on the project itself go here -->
   <title>Main Page</title>
   <link href="style.css" rel="stylesheet" type="text/css">
   <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -28,19 +29,12 @@
  
   </header>
   <div class = "welcome">
-	  <h1>Welcome</h1>
-
+    <h1>Welcome</h1>
 	  <a href="Contact.html" class="indexBtn contact">contact </a>
 	  <a href="#" class="indexBtn shop">shop </a>
-
   </div>
-
-    <button onclick="topFunction()" id="topBtn" title="Go to top">Top</button>
-  <script>
-    function dropdownFunction(){
-          document.getElementById("myDropdown").classList.toggle("show");
-    }
-  </script>
+  <div class="logoMobile"><a href="index.html"><img src=images/logo.PNG></a></div>
+  <script src=./script.js></script>
 
 </body>
 </html>

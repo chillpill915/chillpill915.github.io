@@ -26,12 +26,12 @@
         </div>
     </div>
 </header>
-
+<button onclick="topFunction()" id="topBtn" title="Go to top">Top</button>
 <div class="about">
     <div class="leftColumn">
         <div class="card">
             <h2>GitHub Showcase</h2>
-            <h5>Seeing my work on the small screen...</h5>
+            <h5>Seeing my work on the small screen...</h5> 
             <div class="fakeimg" style="height:200px;">Image</div>
             <p>This website will act a showcase and a practice ground for various things.</p>
             <p>I'd like to continuously play around with the look of the site, as well as include pieces of media i enjoy.</p>
@@ -52,21 +52,26 @@
             <p>yes yes I know, my javascript is disgusting here. besides that please enjoy my own personal writings, as well as my brothers artwork.</p>
         </div>
         <div class="card">
-            <h3>Popular Post</h3>
-            <div class="fakeimg">Image</div><br>
-            <div class="fakeimg">Image</div><br>
-            <div class="fakeimg">Image</div>
+            <h3>Current reads</h3><br>
+            <div class="books">
+                <a href="https://amazon.com"><img src="/books/KerouacMexicoCityBluesCoverart.jpg" alt="Mexico City Blues"></a>
+                <a href="https://amazon.com"><img src="/books/manInHighCastle.jpg" alt="manInHighCastle"></a>
+            </div>
+            <br>
+<!--             <div class="book2"></div><br>
+            <div class="book3">Image</div> -->
         </div>
         <div class="card">
-            <h3>Follow Me</h3>
-            <p>Some text..</p>
+            <h3>Links to more me</h3><br>
+            <div class="social">
+                <a href="https://github.com/chillpill915"><img src="/social/github.png" alt="github"></a>
+                <a href="https://www.linkedin.com/in/carter-hill-59029b187/"><img src="/social/linkedin.png" alt="linkedin"></a>
+                <a href="https://www.goodreads.com/user/show/114527682-convicted-felon"><img src="/social/goodreads.png" alt="goodReads"></a>
+                <a href="https://letterboxd.com/chillpill007/"><img src="/social/letterboxd.png" alt="letterboxd"></a>
+            </div>
         </div>
     </div>
 </div>
-<script>
-    function dropdownFunction(){
-        document.getElementById("myDropdown").classList.toggle("show");
-    }    
-</script>
+<script src=script.js></script>
 </body>
 </html>
