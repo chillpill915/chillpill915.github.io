@@ -171,22 +171,37 @@ function topFunction() {
     document.body.scrollTop = 0;
     document.documentElement.scrollTop = 0;
     }
- 
+
+
+//drop down menu selection
+var write;
+var textPosition;
+var myIFrame
 function selectWork(value){
     document.getElementById("myFrame").src = value;
+    myIFrame = document.getElementById('myFrame');
+    draw();
     }
-    function draw(){
-        let i=59;
-        let speed = 50;
-        document.getElementById("demo").innerHTML = "";
-        let myIFrame = document.getElementById('myFrame');
-        let text = myIFrame.contentWindow.document.body.innerHTML;
-        typeWriter();
-        function typeWriter(){
-            if(i<text.length-6){
-                document.getElementById("demo").innerHTML += text.charAt(i);
-                i++;
-                setTimeout(typeWriter, speed)
-                }
+function draw(){
+    textPosition = 59;
+    clearTimeout(write);
+    document.getElementById("show").innerHTML = "";
+    let text = myIFrame.contentWindow.document.body.innerHTML;
+    console.log("text");
+    typeWriter();
+    function typeWriter(){
+        if(textPosition<text.length-6){
+            document.getElementById("show").innerHTML += text.charAt(textPosition);
+            textPosition++;
+            write = setTimeout(typeWriter, 50)
             }
-    }
+        }
+}
+function outputWork(){
+    clearTimeout(write);
+    document.getElementById('show').innerHTML = "";
+    let text = myIFrame.contentWindow.document.body.innerHTML;
+    document.getElementById('show').innerHTML = text;
+}
+
+

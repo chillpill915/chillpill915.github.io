@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
 
 </head>
-<body>
+<body onload = >
 <header>
     <div class="top-bar">
         <div class="logo"><a href="index.html"><img src=images/logo.PNG></a></div>
@@ -30,7 +30,7 @@
 <section class="choicePanel">
     <div class="workSelection">
         <h1>Inspiring Works</h1>
-        <select id="mySelect"; onchange=selectWork(value);>
+        <select id="mySelect"; onchange="selectWork(value)">
             <option value="" disabled selected>Select: </option>
             <option value="Readings/1st Chorus.txt">1st Chorus</option>
             <option value="Readings/7th Chorus.txt">7th Chorus</option>
@@ -42,11 +42,11 @@
     </div>
     <div class="iFrameSelection">
         <iframe id="myFrame"></iframe>
-        <pre id= "show"></pre>
+        <pre id= "show"; onclick="outputWork()"></pre>
     </div>
-
     <button onclick="draw()">click me</button>
-    <p id="demo"></p>
+    <button onclick="outputWork()">dont click me</button>
+    <pre id="demo"></pre>
 </section>
 <script src=./script.js></script>
 </body>
