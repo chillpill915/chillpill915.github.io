@@ -115,6 +115,7 @@ body{
  */
 .contactContainer{
     padding: 2px 16px;
+    position: relative;
 }
 .kevinInfo{
     text-align: left;
@@ -134,10 +135,40 @@ body{
     background-color: white;
     animation: fadeIn ease 4s;
 }
+.contactForm{
+    text-align: center;
+    position: absolute;
+    top: 160px;
+    margin-left: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    padding: 30px;
+    width: 40%;
+    background-color: white;
+    animation: fadeIn ease 4s;
+}
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+  }
+input[type=submit]{
+    width: 100%;
+    padding: 12px 20px;
+    border: none;
+    outline: none;
+    background-color: black;
+    cursor: pointer;
+    font-size: 18px;
+    color:white;
+    margin: 8px 0;
+}
 .kevinInfo:hover{
     box-shadow: 0 12px 24px 0 rgba(0,0,0,0.2);
 }
 .carterInfo:hover{
+    box-shadow: 0 12px 24px 0 rgba(0,0,0,0.2);
+}
+.contactForm:hover{
     box-shadow: 0 12px 24px 0 rgba(0,0,0,0.2);
 }
 
@@ -196,6 +227,7 @@ body{
 .grid{
     text-align: center;
     padding: 32px;
+    animation: fadeIn ease 1s;
 }
 .row {
     display: -ms-flexbox; /* IE 10 */
@@ -212,6 +244,7 @@ body{
     flex: 25%;
     padding: 0 4px;
     position: relative;
+    animation: fadeIn ease 3s;
 }
 .column img {
     margin-top: 8px;
@@ -399,13 +432,14 @@ body{
     max-width: 1000px;
     margin: auto;
     padding-top: 80px;
+    animation: fadeIn ease 1s;
 }
 .galleryPage h1{
     font-size: 50px;
     word-break: break-all;
 }
 .galleryRow{
-    animation: fadeIn ease 2s;
+    animation: fadeIn ease 3s;
 }
 /*add padding between each column */
 .galleryRow,.galleryRow > .galleryColumn{
@@ -485,7 +519,9 @@ body{
         border: 2px solid #000;  
         text-align: center;
         display: block;
-        margin: auto;
+    }
+    .welcome{
+        top: 50px;
     }
     .logoMobile img{
         display: block;
@@ -503,6 +539,12 @@ body{
         width: 100%;
         text-align: center;
     }
+    .contactForm{
+        position: relative;
+        top: 30px;
+        width: 100%;
+        margin-left: auto;
+    }
 
     /*top bar navigation*/
     .menu{
@@ -511,7 +553,7 @@ body{
     .icon{
         display: block;
         width: 100%;
-        height: 80%;
+        height: 100%;
         border: none;
         background: black;
         color:white;
@@ -533,7 +575,7 @@ body{
         cursor: pointer;
         text-align: center;
         z-index: 1;
-        transition: display 2s;
+        /* transition: display 2s; */
     }
     .dropdown-content a{
         color: white;

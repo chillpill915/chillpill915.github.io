@@ -2,6 +2,19 @@ function dropdownFunction(){
     document.getElementById("myDropdown").classList.toggle("show");
 }
 
+// var showing = 0
+// function showNav(){
+//     if(showing){
+//         document.getElementById("myFrame").style.display = "block"
+//         showing = 0;
+//         console.log('hey');
+//     }else{
+//         document.getElementById("myDropdown").style.height = "100%";
+//         showing = 1;
+//         console.log("what");
+//     }
+// }
+
 filterSelection("all")
 function filterSelection(c){
     let x, i;
