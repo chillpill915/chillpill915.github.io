@@ -59,6 +59,9 @@ body{
 .dropdown-content{
     display: none;
 }
+.mobileMenu{
+    display: none;
+}
 
 
 
@@ -510,11 +513,94 @@ input[type=submit]{
  */
 @media screen and (max-width: 750px)
 {
+/*top bar navigation*/
+    .menu{
+        display: none;
+    }
+    .icon{
+        display: block;
+        width: 100%;
+        height: 70px;
+        border: none;
+        background: black;
+        color:white;
+        font-size: 45px;
+        cursor: pointer;
+        text-align: center;
+    }
+    .icon:focus{
+        outline: none;
+    }
+    /* .dropdown-content{
+        display: none;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-color: black;
+        min-width: 160px;
+        color: white;
+        cursor: pointer;
+        text-align: center;
+        z-index: 1;
+    }
+    .dropdown-content a{
+        color: white;
+        padding: 12px, 16px;
+        margin: 60px;
+        display: block;
+        text-decoration: none;
+        font-size: xx-large;
+        letter-spacing: 2px;
+    }
+    .dropdown-content a:hover{
+        background-color: rgba(0,0,0,0.9);
+    } 
+
+    .show{
+        display: block;
+    }  */
+
+    .top-bar{
+        height: 100%;
+    }
+    .mobileMenu {
+        display: block;
+        height: 0;
+        width: 100%;
+        top: 0;
+        left: 0;
+        background-color:black;
+        transition: 0.5s;
+    }
+    .mobileMenu a {
+        padding:  8px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 30px;
+        color: #818181;
+        display: block;
+        transition: 0.3s;
+    }  
+    .mobileMenu a:hover {
+        color: #f1f1f1;
+    }
+    
+    .top-bar{
+        overflow: hidden; 
+        background-color: transparent;
+
+    }
+    .top-bar ul{
+        display: none;
+    }
+    .top-bar img{
+        display: none;
+    }
+
     /*index page*/
     .welcome h1{
         display:none;
     }
-    
     .indexBtn{
         border: 2px solid #000;  
         text-align: center;
@@ -528,6 +614,7 @@ input[type=submit]{
         margin: auto;
         min-height: 200px;
     }
+
 
     /*contact page*/
     .kevinInfo{
@@ -545,64 +632,6 @@ input[type=submit]{
         width: 100%;
         margin-left: auto;
     }
-
-    /*top bar navigation*/
-    .menu{
-        display: none;
-    }
-    .icon{
-        display: block;
-        width: 100%;
-        height: 100%;
-        border: none;
-        background: black;
-        color:white;
-        font-size: 45px;
-        cursor: pointer;
-        text-align: center;
-    }
-    .icon:hover{
-        background-color: rgba(0,0,0,0.9);
-    }
-    .dropdown-content{
-        display: none;
-        position: absolute;
-        width: 100%;
-        height: 100%;
-        background-color: black;
-        min-width: 160px;
-        color: white;
-        cursor: pointer;
-        text-align: center;
-        z-index: 1;
-        /* transition: display 2s; */
-    }
-    .dropdown-content a{
-        color: white;
-        padding: 12px, 16px;
-        display: block;
-        text-decoration: none;
-        font-size: xx-large;
-        letter-spacing: 2px;
-    }
-    .dropdown-content a:hover{
-        background-color: rgba(0,0,0,0.9);
-    }
-    .show{
-        display: block;
-    } 
-    .top-bar{
-        overflow: hidden; 
-        background-color: transparent;
-
-    }
-    .top-bar ul{
-        display: none;
-    }
-    .top-bar img{
-        display: none;
-    }
-
 
     /*gallery page*/
     .galleryBtn{

@@ -217,4 +217,16 @@ function outputWork(){
     document.getElementById('show').innerHTML = text;
 }
 
+var open = 1;
+function openNav() {
+    if(open){
+        document.getElementById("myMobileMenu").style.height = "275px";
+        open = 0;
+    } else {
+        document.getElementById("myMobileMenu").style.height = "0";
+        open = 1;
+    }
+
+
+}
 
