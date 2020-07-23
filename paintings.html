@@ -1,52 +1,54 @@
+<!DOCTYPE html>
 <html>
-  <head>
-	  <meta charset="UTF-8">
-	  <title>Paintings</title>
-	  <link href="style.css" rel="stylesheet" type="text/css">
-    <meta name="viewport" content="width=device-width,initial-scale=1">
-  </head>
-  <body onload="smallScreen();">
-    <header>
-		<div class="top-bar">
-			<div class="logo"><a href="index.html"><img src=images/logo.PNG></a></div>
-			<ul class="menu">
-				<li><a href="Reads.html">Materials</a></li>
-				<li><a href="myWritings.html">Writings</a></li>
-				<li><a href="Gallery.html">Paintings</a></li>
-				<li><a href="about.html">About</a></li>
+<head>
+  <!-- libraries that span the entire project and do not rely on the project itself go here -->
+  <meta charset = "UTF-8">
+  <title>Test Page</title>
+  <link href="style.css" rel="stylesheet" type="text/css">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+</head>
+<body onload="smallScreen();">
+  <header>
+    <div class="top-bar" id="Topnav">
+      <div class="logo"><a href="index.html"><img src=images/logo.PNG></a></div>
+      <ul id="mainMenu" class="menu">
+      <li><a href="Reads.html">Materials</a></li>
+      <li><a href="myWritings.html">Writings</a></li>
+      <li><a href="Gallery.html">Paintings</a></li>
+      <li><a href="about.html">About</a></li>
       </ul>
-	  <button class="icon" onclick="openNav()">&#9776;</button>
-	  <div class="mobileMenu" id="myMobileMenu">
-		  <a href="index.html">Home</a>
-		  <a href="Reads.html">Materials</a>
-		  <a href="myWritings.html">Writings</a>
-		  <a href="Gallery.html">Paintings</a>
-		  <a href="about.html">About</a>
-	  </div>
+      <button class="icon" onclick="openNav()">&#9776;</button>
+      <div class="mobileMenu" id="myMobileMenu">
+        <a href="index.html">Home</a>
+          <a href="Reads.html">Materials</a>
+          <a href="myWritings.html">Writings</a>
+          <a href="Gallery.html">Paintings</a>
+          <a href="about.html">About</a>
+      </div>
+    </div>
+  </header>
+  <button onclick="topFunction()" id="topBtn" title="Go to top">Top</button>
+  <div class="grid" id="pictureGrid">
+      <button class="gridBtn" onclick="one()">1</button>
+      <button class="gridBtn" onclick="two()">2</button>
+      <button class="gridBtn" onclick="three()">3</button>
+      <button class="gridBtn active" onclick="four()">4</button>
+  </div>
+  <!-- Photo Grid -->
+	<div class="row">
+		<div class="column">
+			<img class="art" id="0" src="images/untitled/img__57.jpg" alt="The ends the beginning" onclick = sendImg(src,alt,id) style="width:100%">
+			<img class="art" id="1" src="images/untitled/img__61.jpg" alt="watch em die" onclick = sendImg(src,alt,id) style="width:100%">
+			<img class="art" id="2" src="images/untitled/IMG_1648.jpg" alt="something good to die for" onclick = sendImg(src,alt,id) style="width:100%">
+			<img class="art" id="3" src="images/undone/11.jpg" alt="ghostly apparition" onclick = sendImg(src,alt,id) style="width:100%">
+			<img class="art" id="4" src="images/orchestra/IMG_0224.jpg" alt="white on white" onclick = sendImg(src,alt,id) style="width:100%">
+			<img class="art" id="5" src="images/orchestra/IMG_0223.jpg" alt="a splash of light" onclick = sendImg(src,alt,id) style="width:100%">
 		</div>
-    </header>
-	  <button onclick="topFunction()" id="topBtn" title="Go to top">Top</button>
-	  <div class="grid" id="pictureGrid">
-		  <button class="gridBtn" onclick="one()">1</button>
-		  <button class="gridBtn" onclick="two()">2</button>
-		  <button class="gridBtn" onclick="three()">3</button>
-		  <button class="gridBtn active" onclick="four()">4</button>
-	  </div>
-	  <!-- Photo Grid -->
-	  <div class="row">
-		  <div class="column">
-			  <img class="art" id="0" src="images/untitled/img__57.jpg" alt="The ends the beginning" onclick = sendImg(src,alt,id) style="width:100%">
-			  <img class="art" id="1" src="images/untitled/img__61.jpg" alt="watch em die" onclick = sendImg(src,alt,id) style="width:100%">
-			  <img class="art" id="2" src="images/untitled/IMG_1648.jpg" alt="something good to die for" onclick = sendImg(src,alt,id) style="width:100%">
-			  <img class="art" id="3" src="images/undone/11.jpg" alt="ghostly apparition" onclick = sendImg(src,alt,id) style="width:100%">
-			  <img class="art" id="4" src="images/orchestra/IMG_0224.jpg" alt="white on white" onclick = sendImg(src,alt,id) style="width:100%">
-			  <img class="art" id="5" src="images/orchestra/IMG_0223.jpg" alt="a splash of light" onclick = sendImg(src,alt,id) style="width:100%">
-		  </div>
-		  <div class="column">
-			  <img class="art" id="6" src="images/orchestra/IMG_0221+copy.jpg" alt="nothing" onclick = sendImg(src,alt,id) style="width:100%">
-			  <img class="art" id="7" src="images/orchestra/IMG_0222.jpg" alt="nothing" onclick = sendImg(src,alt) style="width:100%">
-			  <img class="art" id="8" src="images/orchestra/IMG_0224.jpg" alt="nothing" onclick = sendImg(src,alt,id) style="width:100%">
-			  <img class="art" id="9" src="images/orchestra/IMG_0225+copy.jpg" alt="nothing" onclick = sendImg(src,alt,id) style="width:100%">
+		<div class="column">
+			<img class="art" id="6" src="images/orchestra/IMG_0221+copy.jpg" alt="nothing" onclick = sendImg(src,alt,id) style="width:100%">
+			<img class="art" id="7" src="images/orchestra/IMG_0222.jpg" alt="nothing" onclick = sendImg(src,alt) style="width:100%">
+			<img class="art" id="8" src="images/orchestra/IMG_0224.jpg" alt="nothing" onclick = sendImg(src,alt,id) style="width:100%">
+			<img class="art" id="9" src="images/orchestra/IMG_0225+copy.jpg" alt="nothing" onclick = sendImg(src,alt,id) style="width:100%">
 			  <img class="art" id="10" src="images/orchestra/IMG_0226+copy.jpg" alt="nothing" onclick = sendImg(src,alt,id) style="width:100%">
 			  <img class="art" id="11" src="images/orchestra/IMG_0289.jpg" alt="nothing" onclick = sendImg(src,alt,id) style="width:100%">
 		  </div>
@@ -66,17 +68,17 @@
 			  <img class="art" id="22" src="images/nature/img__72.jpg" alt="nothing" onclick = sendImg(src,alt,id) style="width:100%">
 			  <img class="art" id="23" src="images/undone/12.jpg" alt="nothing" onclick = sendImg(src,alt,id) style="width:100%">
       </div>
-	  </div>
-	  <!-- The Modal -->
+      </div>
+      	  <!-- The Modal -->
 	  <div id="myModal" class="modal">
-		  <span class="close">&times;</span>
-		  <span class="prev">&#10094;</span>
-		  <span class="next">&#10095;</span>
-		  <!--<a class="prev" onclick="nextModal(-1)">&#10094;</a>-->
-		  <!--<a class="next" onclick="nextModal(1)">&#10095;</a>-->
-		  <img class="modal-content" id="img01">
-		<div id="caption"></div>
-	  </div>
-	  <script src=./script.js></script>
-  </body>
+        <span class="close">&times;</span>
+        <span class="prev">&#10094;</span>
+        <span class="next">&#10095;</span>
+        <!--<a class="prev" onclick="nextModal(-1)">&#10094;</a>-->
+        <!--<a class="next" onclick="nextModal(1)">&#10095;</a>-->
+        <img class="modal-content" id="img01">
+      <div id="caption"></div>
+        </div>
+  <script src=./script.js></script>
+</body>
 </html>
