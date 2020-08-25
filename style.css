@@ -119,6 +119,7 @@ body{
 .contactContainer{
     padding: 2px 16px;
     position: relative;
+    margin-left: 8%;
 }
 .kevinInfo{
     text-align: left;
@@ -153,6 +154,7 @@ input[type=text] {
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
+    font-size: 18px;
   }
 input[type=submit]{
     width: 100%;
@@ -427,6 +429,95 @@ input[type=submit]{
     display: none;
 } 
 
+.WritingsBtn {
+    display: block;
+    height: 70px;
+    border: none;
+    background-color: inherit;
+    top: 150px;
+    padding: 14px 28px;
+    font-size: 25px;
+    cursor: pointer;
+    position: fixed;
+}
+
+.WritingsBtn:focus {
+    outline: none;
+}
+.WritingsBtn:hover {
+    background: #eee;
+}
+
+/*css for writings page*/
+.sidenav{
+    height: 50%;
+    position: fixed;
+    top: 220px;
+    left: 0px;
+    background-color: black;
+    overflow-x: hidden;
+    transition: .5s;
+}
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+    transition: .3s;
+}
+.contentPanel {
+    transition: margin-left .5s;
+    background-color: white;
+    text-align: center;
+    width: 40%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 70px;
+}
+.author {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    padding: 8px 8px 8px 32px;
+    border: none;
+    text-align: left;
+    outline: none;
+    width: 100%;
+    text-decoration: none;
+    font-size: 25px;
+    display: block;
+    transition: .3s;
+  }
+  
+  .active, .author:hover {
+    background-color: #ccc; 
+  }
+  
+  .authorWorks {
+    padding: 0 18px;
+    background-color: white;
+    overflow: hidden;
+    transition: .5s;
+  }
+
+  .authorWorks button {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    padding: 8px 8px 8px 32px;
+    border: none;
+    text-align: left;
+    outline: none;
+    width: 100%;
+    text-decoration: none;
+    font-size: 25px;
+    display: block;
+  }
+  /* .authorWorks button:hover {
+    background-color: darkgrey; 
+  } */
+
 
 
 
@@ -629,6 +720,9 @@ input[type=submit]{
         width: 100%;
         text-align: center;
     }
+    .contactContainer{
+        margin-left: 0%;
+    }
     .contactForm{
         position: relative;
         top: 30px;
@@ -662,6 +756,53 @@ input[type=submit]{
     .about{
         padding: 0px;
     }
+    .WritingsBtn {
+        display: block;
+        height: 70px;
+        border: none;
+        background-color: inherit;
+        font-size: 25px;
+        cursor: pointer;
+        top:0px;
+        position: sticky;
+        width: 100%;
+    }
+    
+    .WritingsBtn:focus {
+        outline: none;
+    }
+    .WritingsBtn:hover {
+        background: #eee;
+    }
+    /*css for writings page*/
+    .sidenav{
+        height: 50%;
+        width: 0;
+        top:140px;
+        position: fixed;
+        left: 0px;
+        background-color: black;
+        overflow-x: hidden;
+        transition: .5s;
+    }
+    .sidenav a {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 25px;
+        color: white;
+        display: block;
+        transition: .3s;
+    }
+    .contentPanel {
+        transition: margin-left .5s;
+        background-color: white;
+        text-align: center;
+        width: 80%;
+        margin-top: 10px;
+        margin-right: auto;
+        margin-left: auto;
+         
+    }
 
     /*about page*/
     .leftColumn, .rightColumn{
@@ -670,11 +811,7 @@ input[type=submit]{
     }
     .books img{
         margin: auto;
-    }
+    } 
 
 
 }
-
-
-
-

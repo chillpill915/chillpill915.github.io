@@ -223,10 +223,50 @@ function openNav() {
         document.getElementById("myMobileMenu").style.height = "275px";
         open = 0;
     } else {
-        document.getElementById("myMobileMenu").style.height = "0";
+        document.getElementById("myMobileMenu").style.height = "0px";
         open = 1;
     }
-
-
 }
 
+function openSide() {
+    let w = window.innerWidth;
+    let style = document.getElementById("myWritings").style.width;
+    if(style=="0px" && w>750){
+        document.getElementById("myWritings").style.width = "216px";
+        //document.getElementById("WritingBtn").style.width = "250px";
+        //document.getElementById("viewContent").style.marginLeft = "250px";
+    }
+    else if(style=="0px" && w<750) {
+        document.getElementById("myWritings").style.width = "100%"
+    }
+    else {
+        document.getElementById("myWritings").style.width = "0px";
+        //document.getElementById("WritingsBtn").style.width = "100px"
+        //document.getElementById("viewContent").style.marginLeft = "250px";
+    }
+}
+
+function accordion(s) {
+    var x = document.getElementById(s);
+    if (x.style.display === "none") {
+      x.style.display = "block";
+    } else {
+      x.style.display = "none";
+    }
+}
+
+
+function readFile(x) {
+    let client = new XMLHttpRequest();
+    client.open('GET',x);
+    client.onreadystatechange = function() {
+        //alert(client.responseText);
+        document.getElementById('selectedWork').innerHTML = client.responseText;
+    }
+    client.send();
+}
+
+
+function submit() {
+    $('form').serialize()
+}
