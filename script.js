@@ -260,13 +260,22 @@ function readFile(x) {
     let client = new XMLHttpRequest();
     client.open('GET',x);
     client.onreadystatechange = function() {
-        //alert(client.responseText);
-        document.getElementById('selectedWork').innerHTML = client.responseText;
+        document.getElementById('proseWork').innerHTML = client.responseText;
+        document.getElementById('fictionWork').innerHTML = "";
+        document.getElementById('authorWorks1').style.display = "none";
+        document.getElementById('authorWorks2').style.display = "none";
+
+    }
+    client.send();
+}
+function readFiction(x) {
+    let client = new XMLHttpRequest();
+    client.open('GET',x);
+    client.onreadystatechange = function() {
+        document.getElementById('fictionWork').innerHTML = client.responseText;
+        document.getElementById('proseWork').innerHTML = "";
     }
     client.send();
 }
 
 
-function submit() {
-    $('form').serialize()
-}

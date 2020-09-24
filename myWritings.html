@@ -37,9 +37,9 @@
         <button type="button" onclick="readFile('Writings/onceAgain.txt');openSide();">Once Again</button>
         <button type="button" onclick="readFile('Writings/itsStrange.txt');openSide();">It's Strange</button>
     </div>
-    <button class="author" onclick="accordion('authorWorks2');">Non Fiction</button>
+    <button class="author" onclick="accordion('authorWorks2');">Fiction</button>
     <div class="authorWorks" style="display: none;" id = "authorWorks2">
-        <button type="button" onclick="readFile('Writings/3rd.txt');openSide();">3rd text</button>
+        <button type="button" onclick="readFiction('Writings/character.txt');openSide();">Paragraph test</button>
     </div>
     <a href="index.html">Haiku</a>
     <a href="index.html">Other</a>
@@ -49,7 +49,8 @@
 <!-- this will look like paper -->
 <div class = "contentPanel" id="viewContent"> 
     <!-- <input type="file" name="inputfile" id="inputfile"> -->
-    <pre id="selectedWork"></pre>
+    <pre class="prose" id="proseWork"></pre>
+    <pre class="fiction" id="fictionWork"></pre>
 </div>
 <script src=./script.js>
     
