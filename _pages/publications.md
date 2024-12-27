@@ -1,10 +1,10 @@
 ---
 layout: page
-permalink: /interests/
-title: interests
-description: here's the good stuff.
+permalink: /references/
+title: references
+description: sources and further information
 nav: true
-nav_order: 2
+nav_order: 7
 ---
 
 <!-- _pages/publications.md -->
