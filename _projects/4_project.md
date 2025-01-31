@@ -2,8 +2,8 @@
 layout: page
 title: project 4
 description: another without an image
-img:
-importance: 3
+img: assets/img/parts_of_an_orchestration_no1.jpg
+importance: 2
 category: fun
 ---
 
