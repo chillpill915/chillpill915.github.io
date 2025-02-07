@@ -6,8 +6,8 @@ img: assets/img/parts_of_an_orchestration_no1.jpg
 importance: 3
 category: paintings
 related_publications: true
-image:
-    lightbox2: true
+images:
+  lightbox2: true
 ---
 
 <div class="container">

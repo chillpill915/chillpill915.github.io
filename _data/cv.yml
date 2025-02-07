@@ -2,64 +2,37 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
+      value: Carter Hill
     - name: Date of Birth
-      value: 14th March 1879
+      value: 17th April 1997
     - name: Languages
-      value: English, German
+      value: English, Spanish
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: Bachelor
+      institution: University of Tennessee at Chattanooga, Chattanooga, Tennessee
+      year: 2019
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+        - Where i studied computer software design.
+        - worked on web apps, games, and analytics applications.
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Software Developer
+      institution: Tennessee Comptroller of the Treasury
+      year: 2021 - 2022
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Started my career as a java developer working on Adobe's AEM platform.
+        - https://comptroller.tn.gov/
+    - title: Full Stack Software Developer
+      institution: Tennessee Comptroller of the Treasury
+      year: 2022-present
       description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
+        - My Transition to C# and a .NET application structure.
+        - Helping bring government applications up to modern standards of security and performance.
 
 - title: Open Source Projects
   type: time_table

@@ -3,7 +3,9 @@ layout: post
 title: toe experience
 date: 2024-11-20 16:40:16
 description: it sure is a post alright
-tags: toes
+tags:
+  - toes
+  - happiness
 categories: poetry
 featured: false
 ---

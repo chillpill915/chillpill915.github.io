@@ -9,6 +9,7 @@ related_publications: true
 images:
   lightbox2: true
 ---
+
 <div class="container">
     <div class="row">
         <div class="col-md-4 col-sm-12 pt-2">

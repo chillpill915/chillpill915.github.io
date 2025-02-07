@@ -3,8 +3,9 @@ layout: post
 title: 
 date: 2024-11-21 16:40:16
 description: phone notes
-tags: hapiness
-categories: prose
+tags:
+  - hapiness
+categories: poetry
 featured: false
 ---
 I have eaten
