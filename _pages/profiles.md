@@ -2,7 +2,7 @@
 layout: profiles
 permalink: /family/
 title: family
-description: contri
+description: pieces of the puzzle
 nav: true
 nav_order: 6
 
@@ -10,27 +10,23 @@ profiles:
   # if you want to include more than one profile, just replicate the following block
   # and create one content file for each profile inside _pages/
   - align: right
-    image: prof_pic.jpg
+    image: carter_headshot.jpg
     content: about_carter.md
     image_circular: false # crops the image to make it circular
     more_info: >
-      <p>555 your office number</p>
-      <p>123 your address street</p>
-      <p>Your City, State 12345</p>
+      <p><a href="mailto:carterhill915@gmail.com">carterhill915@gmail.com</a></p>
+      <p>Nashville, TN 37204</p>
   - align: left
-    image: prof_pic.jpg
+    image: image-coming-soon-placeholder.png
     content: about_connor.md
     image_circular: false # crops the image to make it circular
     more_info: >
-      <p>555 your office number</p>
-      <p>123 your address street</p>
-      <p>Your City, State 12345</p>
+
   - align: right
-    image: prof_pic.jpg
+    image: image-coming-soon-placeholder.png
     content: about_kevin.md
     image_circular: false # crops the image to make it circular
     more_info: >
-      <p>555 your office number</p>
-      <p>123 your address street</p>
-      <p>Your City, State 12345</p>
+      <p><a href="kevincorbetthill.com">Kevin Corbett Hill</a></p>
+
 ---

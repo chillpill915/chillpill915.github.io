@@ -1,10 +1,10 @@
 {
   "basics": {
     "name": "Carter Hill",
-    "label": "Computer Scientist",
+    "label": "Software Engineer",
     "image": "",
     "email": "carterhill915@gmail.com",
-    "phone": "(912) 123-4567",
+    "phone": "",
     "url": "https://alshedivat.github.io/al-folio/",
     "summary": "A tinkerer at heart, and a lover of the arts. In the search of wealth through the truth of knowing.",
     "location": {
@@ -13,14 +13,7 @@
       "city": "Nashville",
       "countryCode": "US",
       "region": "Tennessee"
-    },
-    "profiles": [
-      {
-        "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
-      }
-    ]
+    }
   },
   "work": [
     {
@@ -35,14 +28,14 @@
   ],
   "volunteer": [
     {
-      "organization": "People's Climate March",
-      "location": "Zurich, Switzerland",
-      "position": "Lead Organizer",
-      "url": "https://example.com",
-      "startDate": "2014-04-01",
-      "endDate": "2015-07-01",
-      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
-      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
+      "organization": "Special Olympics Volunteer",
+      "location": "Nashville, Tennessee",
+      "position": "Athlete",
+      "url": "https://www.specialolympicstn.org/nashville-area-1?locale=en",
+      "startDate": "2022-05-22",
+      "endDate": "2023-06-15",
+      "summary": "My wife and I played in the special olympic qualifying games for vollyball. We also dabbled in flag football and pickleball.",
+      "highlights": ["We achieved 4th place in the regional games", "Made a lot of great friends in the program"]
     }
   ],
   "education": [
@@ -69,11 +62,10 @@
   ],
   "awards": [
     {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
+      "title": "Most Handsome",
+      "date": "2007-05-12",
+      "awarder": "Mrs. Mathison",
+      "summary": "There was an argument in class and we held a vote to deside who was the most handsome boy in class. Guess who won"
     }
   ],
   "certificates": [
@@ -85,27 +77,28 @@
       "icon": "fa-solid fa-location-dot"
     }
   ],
-  "publications": [
-    {
-      "name": "Zur Elektrody/namik bewegter Körper",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-06-30",
-      "url": "https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies",
-      "summary": "It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source."
-    }
-  ],
   "skills": [
     {
-      "name": "Physics",
-      "level": "Master",
+      "name": "C# Development",
+      "level": "Advanced",
       "icon": "fa-solid fa-hashtag",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "Full Stack",
+        "C#",
+        ".NET",
+        "Azure"
+      ]
+    },
+    {
+      "name": "Adobe Experience Management Development",
+      "level": "Moderate",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "Full Stack",
+        "Java",
+        "CRM Software",
+        "Web Site",
+        "Adobe Cloud"
       ]
     }
   ],
@@ -123,38 +116,34 @@
   ],
   "interests": [
     {
-      "name": "Physics",
+      "name": "Computer Science",
+      "level": "Master",
       "icon": "fa-solid fa-tag",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "Machine Learning",
+        "Data Structures",
+        "Program Design"
       ]
-    }
-  ],
-  "references": [
-    {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-laptop",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
     },
     {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-thumbtack",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
+      "name": "Networking",
+      "level": "Cosplaying SysAdmin",
+      "icon": "fa-solid fa-tag",
+      "keywords": [
+        "SSH",
+        "Docker Containers",
+        "VPN",
+        "Security"
+      ]
     }
   ],
   "projects": [
     {
-      "name": "Quantum Computing",
-      "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
-      "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
-      "startDate": "2018-01-01",
-      "endDate": "2018-01-01",
-      "url": "https://example.com"
+      "name": "This?",
+      "summary": "My other projects include various homelabbing services such as nextcloud, pikvm, and media streaming software",
+      "highlights": ["Networking", "Internet", "Software Development"],
+      "startDate": "2019-06-16",
+      "endDate": "NEVER"
     }
   ]
 }

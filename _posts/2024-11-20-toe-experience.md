@@ -1,8 +1,8 @@
 ---
 layout: post
-title: toe experience
+title: Toe Experience
 date: 2024-11-20 16:40:16
-description: it sure is a post alright
+description: Toes in town
 tags:
   - toes
   - happiness

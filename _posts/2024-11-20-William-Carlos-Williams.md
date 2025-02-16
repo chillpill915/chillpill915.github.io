@@ -1,8 +1,8 @@
 ---
 layout: post
-title: 
+title: Plums
 date: 2024-11-21 16:40:16
-description: phone notes
+description: A favorite of mine
 tags:
   - hapiness
 categories: poetry
@@ -22,4 +22,6 @@ Forgive me
 they were delicious
 so sweet
 and so cold
+
+ -- William-Carlos-Williams
 
