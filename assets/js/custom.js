@@ -1,0 +1,1 @@
+document.querySelectorAll(".preview-image").forEach((e=>{e.style.width="200px",e.style.height="auto"}));
