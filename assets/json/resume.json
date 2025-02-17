@@ -82,24 +82,13 @@
       "name": "C# Development",
       "level": "Advanced",
       "icon": "fa-solid fa-hashtag",
-      "keywords": [
-        "Full Stack",
-        "C#",
-        ".NET",
-        "Azure"
-      ]
+      "keywords": ["Full Stack", "C#", ".NET", "Azure"]
     },
     {
       "name": "Adobe Experience Management Development",
       "level": "Moderate",
       "icon": "fa-solid fa-hashtag",
-      "keywords": [
-        "Full Stack",
-        "Java",
-        "CRM Software",
-        "Web Site",
-        "Adobe Cloud"
-      ]
+      "keywords": ["Full Stack", "Java", "CRM Software", "Web Site", "Adobe Cloud"]
     }
   ],
   "languages": [
@@ -119,22 +108,13 @@
       "name": "Computer Science",
       "level": "Master",
       "icon": "fa-solid fa-tag",
-      "keywords": [
-        "Machine Learning",
-        "Data Structures",
-        "Program Design"
-      ]
+      "keywords": ["Machine Learning", "Data Structures", "Program Design"]
     },
     {
       "name": "Networking",
       "level": "Cosplaying SysAdmin",
       "icon": "fa-solid fa-tag",
-      "keywords": [
-        "SSH",
-        "Docker Containers",
-        "VPN",
-        "Security"
-      ]
+      "keywords": ["SSH", "Docker Containers", "VPN", "Security"]
     }
   ],
   "projects": [
