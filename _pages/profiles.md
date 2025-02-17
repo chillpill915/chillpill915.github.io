@@ -27,6 +27,6 @@ profiles:
     content: about_kevin.md
     image_circular: false # crops the image to make it circular
     more_info: >
-      <p><a href="kevincorbetthill.com">Kevin Corbett Hill</a></p>
+      <p><a href="kevincorbetthill.squarespace.com">Kevin Corbett Hill</a></p>
 
 ---
