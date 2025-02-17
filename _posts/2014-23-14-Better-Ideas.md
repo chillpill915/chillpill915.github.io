@@ -12,9 +12,4 @@ featured: true
 
 The Only sure weapon against bad ideas are better ideas.
 
- -- Alfred Whitney Griswold
-
-
-
-
-
+-- Alfred Whitney Griswold
