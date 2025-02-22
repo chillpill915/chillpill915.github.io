@@ -76,4 +76,3 @@ images:
     </div>
 </div>
 <br />
-by {% cite eyestwitching2008 %}
