@@ -5,7 +5,7 @@
     "image": "",
     "email": "carterhill915@gmail.com",
     "phone": "",
-    "url": "https://alshedivat.github.io/al-folio/",
+    "url": "https://chillpill915.github.io",
     "summary": "A tinkerer at heart, and a lover of the arts. In the search of wealth through the truth of knowing.",
     "location": {
       "address": "701 Fessey Park Road",
@@ -82,13 +82,13 @@
       "name": "C# Development",
       "level": "Advanced",
       "icon": "fa-solid fa-hashtag",
-      "keywords": ["Full Stack", "C#", ".NET", "Azure"]
+      "keywords": ["Full Stack", "C#", ".NET", "Azure", "Blazor", "MudBlazor"]
     },
     {
       "name": "Adobe Experience Management Development",
       "level": "Moderate",
       "icon": "fa-solid fa-hashtag",
-      "keywords": ["Full Stack", "Java", "CRM Software", "Web Site", "Adobe Cloud"]
+      "keywords": ["Full Stack", "Java", "CRM Software", "Web Dev", "Adobe Cloud"]
     }
   ],
   "languages": [

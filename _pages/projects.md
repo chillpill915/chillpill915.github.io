@@ -2,10 +2,10 @@
 layout: page
 title: artworks
 permalink: /artwork/
-description: A secondary home for my brothers artwork that is up for sale.
+description: A secondary home for my brothers artwork
 nav: true
 nav_order: 3
-display_categories: [paintings]
+display_categories: [paintings, works on paper]
 horizontal: false
 ---
 
