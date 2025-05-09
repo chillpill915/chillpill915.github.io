@@ -1,0 +1,195 @@
+{
+  "main": {
+    "id": "af02759261665023",
+    "type": "split",
+    "children": [
+      {
+        "id": "1d9ac3986f6d9ecb",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "953215d4c71295bf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2025-03-10-Lost-Horizon.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2025-03-10-Lost-Horizon"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "6b2f1ae1531d388a",
+    "type": "split",
+    "children": [
+      {
+        "id": "8e49ea8be0fc0402",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "33ee055b37778084",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "3e4e80a26ada5382",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "a70bb1e881495a8a",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "3829ef3105a5ca58",
+    "type": "split",
+    "children": [
+      {
+        "id": "ef7b3e25b246bca8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0b309777e3d75c0f",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "2025-02-04-Wedding.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for 2025-02-04-Wedding"
+            }
+          },
+          {
+            "id": "bb84ed2e7df04116",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "2025-02-04-Wedding.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from 2025-02-04-Wedding"
+            }
+          },
+          {
+            "id": "c2fb427b16858fc1",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "f2fe546d024d3935",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "2025-02-04-Wedding.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of 2025-02-04-Wedding"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "33ee055b37778084",
+  "lastOpenFiles": [
+    "2025-02-04-Chapters.md",
+    "2025-03-10-Lost-Horizon.md",
+    "2025-02-04-Wedding.md",
+    "2024-11-20-William-Carlos-Williams.md",
+    "2024-11-20-toe-experience.md",
+    "2019-06-15-The-Abyss.md",
+    "2024-11-18-About.md",
+    "2019-05-25-Service.md",
+    "2019-01-16-dogs.md",
+    "2014-23-14-Better-Ideas.md",
+    "2025-02-04-Work.md",
+    "2025-02-04-Beauty.md",
+    "2024-11-18-my-first-post.md",
+    "2024-12-04-photo-gallery.md",
+    "2024-05-01-tabs.md",
+    "2024-04-29-typograms.md",
+    "2024-04-28-post-citation.md",
+    "2024-04-15-pseudocode.md",
+    "2024-01-27-vega-lite.md",
+    "2024-01-27-code-diff.md",
+    "2024-01-27-advanced-images.md",
+    "2024-01-26-geojson-map.md",
+    "2024-01-26-echarts.md",
+    "2024-01-26-chartjs.md",
+    "2023-12-12-tikzjax.md",
+    "2023-07-12-post-bibliography.md"
+  ]
+}
