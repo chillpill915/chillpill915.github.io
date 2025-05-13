@@ -14,56 +14,86 @@ images:
     <div class="row">
         <div class="col-md-4 col-sm-12 pt-2">
             <a href="/assets/img/i_cant_make_sense_of_this_how_it'll_all_come_un-done_no1.jpg" data-lightbox="2008 paintings">
-                <img src="/assets/img/i_cant_make_sense_of_this_how_it'll_all_come_un-done_no1.jpg" style="width: -webkit-fill-available; height: auto;" alt="no. 1"/>
+                <img src="/assets/img/i_cant_make_sense_of_this_how_it'll_all_come_un-done_no1.jpg" 
+                    alt="no. 1" 
+                    class="img-fluid" 
+                    style="width: 100%; height: auto;"/>
             </a>
         </div>
         <div class="col-md-4 col-sm-12 pt-2">
             <a href="/assets/img/i_cant_make_sense_of_this_how_it'll_all_come_un-done_no2.jpg" data-lightbox="2008 paintings">
-                <img src="/assets/img/i_cant_make_sense_of_this_how_it'll_all_come_un-done_no2.jpg" style="width: -webkit-fill-available; height: auto;" alt="no. 2"/>
+                <img src="/assets/img/i_cant_make_sense_of_this_how_it'll_all_come_un-done_no2.jpg"
+                    alt="no. 2" 
+                    class="img-fluid" 
+                    style="width: 100%; height: auto;"/>
             </a>
         </div>
         <div class="col-md-4 col-sm-12 pt-2">
             <a href="/assets/img/i_cant_make_sense_of_this_how_it'll_all_come_un-done_no3.jpg" data-lightbox="2008 paintings">
-                <img src="/assets/img/i_cant_make_sense_of_this_how_it'll_all_come_un-done_no3.jpg" style="width: -webkit-fill-available; height: auto;" alt="no. 3"/>
+                <img src="/assets/img/i_cant_make_sense_of_this_how_it'll_all_come_un-done_no3.jpg"
+                    alt="no. 3" 
+                    class="img-fluid" 
+                    style="width: 100%; height: auto;"/>
             </a>
         </div>
     </div>
     <div class="row mt-3">
         <div class="col-md-4 col-sm-12">
             <a href="/assets/img/i_cant_make_sense_of_this_how_it'll_all_come_un-done_no4.jpg" data-lightbox="2008 paintings">
-                <img src="/assets/img/i_cant_make_sense_of_this_how_it'll_all_come_un-done_no4.jpg" style="width: -webkit-fill-available; height: auto;" alt="no. 4"/>
+                <img src="/assets/img/i_cant_make_sense_of_this_how_it'll_all_come_un-done_no4.jpg"
+                    alt="no. 4" 
+                    class="img-fluid" 
+                    style="width: 100%; height: auto;"/>
             </a>
         </div>
         <div class="col-md-4 col-sm-12 pt-2">
             <a href="/assets/img/i_cant_make_sense_of_this_how_it'll_all_come_un-done_no5.jpg" data-lightbox="2008 paintings">
-                <img src="/assets/img/i_cant_make_sense_of_this_how_it'll_all_come_un-done_no5.jpg" style="width: -webkit-fill-available; height: auto;" alt="no. 5"/>
+                <img src="/assets/img/i_cant_make_sense_of_this_how_it'll_all_come_un-done_no5.jpg"
+                    alt="no. 5" 
+                    class="img-fluid" 
+                    style="width: 100%; height: auto;"/>
             </a>
         </div>
         <div class="col-md-4 col-sm-12 pt-2">
             <a href="/assets/img/i_cant_make_sense_of_this_how_it'll_all_come_un-done_no6.jpg" data-lightbox="2008 paintings">
-                <img src="/assets/img/i_cant_make_sense_of_this_how_it'll_all_come_un-done_no6.jpg" style="width: -webkit-fill-available; height: auto;" alt="no. 6"/>
+                <img src="/assets/img/i_cant_make_sense_of_this_how_it'll_all_come_un-done_no6.jpg"
+                    alt="no. 6" 
+                    class="img-fluid" 
+                    style="width: 100%; height: auto;"/>
             </a>
         </div>
     </div>
     <div class="row mt-3">
         <div class="col-md-3 col-sm-12 pt-2">
             <a href="/assets/img/i_cant_make_sense_of_this_how_it'll_all_come_un-done_no7.jpg" data-lightbox="2008 paintings">
-                <img src="/assets/img/i_cant_make_sense_of_this_how_it'll_all_come_un-done_no7.jpg" style="width: -webkit-fill-available; height: auto;" alt="no. 7"/>
+                <img src="/assets/img/i_cant_make_sense_of_this_how_it'll_all_come_un-done_no7.jpg"
+                    alt="no. 7" 
+                    class="img-fluid" 
+                    style="width: 100%; height: auto;"/>
             </a>
         </div>
         <div class="col-md-3 col-sm-12 pt-2">
             <a href="/assets/img/i_cant_make_sense_of_this_how_it'll_all_come_un-done_no8.jpg" data-lightbox="2008 paintings">
-                <img src="/assets/img/i_cant_make_sense_of_this_how_it'll_all_come_un-done_no8.jpg" style="width: -webkit-fill-available; height: auto;" alt="no. 8"/>
+                <img src="/assets/img/i_cant_make_sense_of_this_how_it'll_all_come_un-done_no8.jpg"
+                    alt="no. 8" 
+                    class="img-fluid" 
+                    style="width: 100%; height: auto;"/>
             </a>
         </div>
         <div class="col-md-3 col-sm-12 pt-2">
             <a href="/assets/img/i_cant_make_sense_of_this_how_it'll_all_come_un-done_no9.jpg" data-lightbox="2008 paintings">
-                <img src="/assets/img/i_cant_make_sense_of_this_how_it'll_all_come_un-done_no9.jpg" style="width: -webkit-fill-available; height: auto;" alt="no. 9"/>
+                <img src="/assets/img/i_cant_make_sense_of_this_how_it'll_all_come_un-done_no9.jpg"
+                    alt="no. 9" 
+                    class="img-fluid" 
+                    style="width: 100%; height: auto;"/>
             </a>
         </div>
         <div class="col-md-3 col-sm-12 pt-2">
             <a href="/assets/img/i_cant_make_sense_of_this_how_it'll_all_come_un-done_no10.jpg" data-lightbox="2008 paintings">
-                <img src="/assets/img/i_cant_make_sense_of_this_how_it'll_all_come_un-done_no10.jpg" style="width: -webkit-fill-available; height: auto;" alt="no. 10"/>
+                <img src="/assets/img/i_cant_make_sense_of_this_how_it'll_all_come_un-done_no10.jpg"
+                    alt="no. 10" 
+                    class="img-fluid" 
+                    style="width: 100%; height: auto;"/>
             </a>
         </div>
     </div>

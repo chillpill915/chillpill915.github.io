@@ -4,8 +4,9 @@ title: Better Ideas
 date: 2019-06-15
 description: A favorite of mine
 tags:
-  - Ideas
+  - ideas
   - philosophy
+  - Griswold
 categories: poetry
 featured: true
 ---
