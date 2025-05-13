@@ -18,7 +18,7 @@ ninja.data = [{
           },
         },{id: "nav-artworks",
           title: "artworks",
-          description: "A secondary home for my brothers artwork that is up for sale.",
+          description: "A secondary home for my brothers artwork",
           section: "Navigation",
           handler: () => {
             window.location.href = "/artwork/";
@@ -44,15 +44,15 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/references/";
           },
-        },{id: "post-work",
+        },{id: "post-lost-horizon",
       
-        title: "Work",
+        title: "Lost Horizon",
       
-      description: "Work work work",
+      description: "My thoughts on lost horizon",
       section: "Posts",
       handler: () => {
         
-          window.location.href = "/blog/2025/Work/";
+          window.location.href = "/blog/2025/Lost-Horizon/";
         
       },
     },{id: "post-wedding",
@@ -66,15 +66,15 @@ ninja.data = [{
           window.location.href = "/blog/2025/Wedding/";
         
       },
-    },{id: "post-beauty",
+    },{id: "post-life-39-s-chapters",
       
-        title: "Beauty",
+        title: "Life&#39;s Chapters",
       
-      description: "Obsessions and Expectations",
+      description: "Days to years to lifetimes",
       section: "Posts",
       handler: () => {
         
-          window.location.href = "/blog/2025/Beauty/";
+          window.location.href = "/blog/2025/Chapters/";
         
       },
     },{id: "post-plums",
@@ -187,17 +187,7 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "projects-project-2",
-          title: 'project 2',
-          description: "a project with a background image and giscus comments",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/10_project/";
-            },},{id: "projects-project-3-with-very-long-name",
-          title: 'project 3 with very long name',
-          description: "a project that redirects to another website",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/11_project/";
-            },},{id: "projects-2008-paintings",
+          section: "News",},{id: "projects-2008-paintings",
           title: '2008 paintings',
           description: "i fucking told you i cant keep my eyes from twitching i cant make sense of this how it&#39;ll all come un-done",
           section: "Projects",handler: () => {
@@ -212,41 +202,31 @@ ninja.data = [{
           description: "Untitled",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2010_paintings_untitled/";
+            },},{id: "projects-2010-works-on-paper",
+          title: '2010 works on paper',
+          description: "Meter &amp; Rhyme",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/2010_worksonpaper_meter&rhyme/";
+            },},{id: "projects-2012-paintings",
+          title: '2012 paintings',
+          description: "New Mythology",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/2012_paintings_mythology/";
             },},{id: "projects-2012-paintings",
           title: '2012 paintings',
           description: "Untitled",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2012_paintings_untitled/";
-            },},{id: "projects-project-4",
-          title: 'project 4',
-          description: "another without an image",
+            },},{id: "projects-2012-works-on-paper",
+          title: '2012 works on paper',
+          description: "Untitled",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/4_project/";
-            },},{id: "projects-project-5",
-          title: 'project 5',
-          description: "a project with a background image",
+              window.location.href = "/projects/2012_worksonpaper_untitled/";
+            },},{id: "projects-2012-works-on-paper",
+          title: '2012 works on paper',
+          description: "Sophistication of Hallucinations",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/5_project/";
-            },},{id: "projects-project-6",
-          title: 'project 6',
-          description: "a project with no image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/6_project/";
-            },},{id: "projects-project-7",
-          title: 'project 7',
-          description: "with background image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/7_project/";
-            },},{id: "projects-project-8",
-          title: 'project 8',
-          description: "an other project with a background image and giscus comments",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/8_project/";
-            },},{id: "projects-project-9",
-          title: 'project 9',
-          description: "another project with an image 🎉",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/9_project/";
+              window.location.href = "/projects/2013_worksonpaper_sophisticationofhallucinations/";
             },},{
         id: 'social-discord',
         title: 'Discord',
