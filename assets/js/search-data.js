@@ -44,7 +44,29 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/references/";
           },
-        },{id: "post-lost-horizon",
+        },{id: "post-friend-at-the-end",
+      
+        title: "Friend at the End",
+      
+      description: "A poem based on a dream of mine",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2025/Friend-at-the-End/";
+        
+      },
+    },{id: "post-a-time-to-talk",
+      
+        title: "A Time to Talk",
+      
+      description: "A favorite of mine",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2025/A-Time-to-Talk/";
+        
+      },
+    },{id: "post-lost-horizon",
       
         title: "Lost Horizon",
       
@@ -197,6 +219,11 @@ ninja.data = [{
           description: "Parts of an Orchestra",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2009_paintings_orchestra/";
+            },},{id: "projects-2010-installations",
+          title: '2010 Installations',
+          description: "Untitled",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/2010_installations_untitled/";
             },},{id: "projects-2010-paintings",
           title: '2010 paintings',
           description: "Untitled",
@@ -207,6 +234,11 @@ ninja.data = [{
           description: "Meter &amp; Rhyme",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2010_worksonpaper_meter&rhyme/";
+            },},{id: "projects-2011-installations",
+          title: '2011 Installations',
+          description: "Untitled",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/2011_installations_untitled/";
             },},{id: "projects-2012-paintings",
           title: '2012 paintings',
           description: "New Mythology",
@@ -222,11 +254,16 @@ ninja.data = [{
           description: "Untitled",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2012_worksonpaper_untitled/";
-            },},{id: "projects-2012-works-on-paper",
-          title: '2012 works on paper',
+            },},{id: "projects-2013-works-on-paper",
+          title: '2013 works on paper',
           description: "Sophistication of Hallucinations",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2013_worksonpaper_sophisticationofhallucinations/";
+            },},{id: "projects-2013-works-on-paper",
+          title: '2013 works on paper',
+          description: "The Tyranny of the Image",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/2013_worksonpaper_tyranny_of_the_image/";
             },},{
         id: 'social-discord',
         title: 'Discord',
