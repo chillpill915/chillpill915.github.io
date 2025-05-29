@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Better Ideas
+title: A Time to Talk
 date: 2025-05-14
 description: A favorite of mine
 tags:
@@ -8,7 +8,7 @@ tags:
   - friendship
   - Frost
 categories: poetry
-featured: true
+featured: false
 ---
 
 When a friend calls to me from the road

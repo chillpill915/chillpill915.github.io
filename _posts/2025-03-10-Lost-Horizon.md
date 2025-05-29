@@ -11,5 +11,4 @@ categories: review
 featured: false
 ---
 
-coming soon
-My thoughts on Lost Horizon
+"Nothing of importance, my dear sir, happened in the past year, that could not have been foreseen in 1920, or that will not be better understood in the 1940's"

@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 2012 works on paper
+title: 2013 works on paper
 description: Sophistication of Hallucinations
 img: assets/img/2012sophisticationofhallucinationsno1.jpg
 importance: 3

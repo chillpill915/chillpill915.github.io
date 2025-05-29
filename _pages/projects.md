@@ -5,7 +5,7 @@ permalink: /artwork/
 description: A secondary home for my brothers artwork
 nav: true
 nav_order: 3
-display_categories: [paintings, works on paper]
+display_categories: [paintings, works on paper, installations]
 horizontal: false
 ---
 
