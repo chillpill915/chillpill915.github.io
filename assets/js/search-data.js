@@ -44,7 +44,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/references/";
           },
-        },{id: "post-friend-at-the-end",
+        },{id: "post-between-timid-and-timbuktu",
+      
+        title: "Between Timid and Timbuktu",
+      
+      description: "finding the time",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2025/Between-Timid-and-Timbuktu/";
+        
+      },
+    },{id: "post-friend-at-the-end",
       
         title: "Friend at the End",
       
