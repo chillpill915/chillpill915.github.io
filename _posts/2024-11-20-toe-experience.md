@@ -11,14 +11,14 @@ categories: poetry
 featured: false
 ---
 
-I do not drop into life head first <br>
-I sink my feet into it slowly <br>
-spreading my toes to experience <br>
-every stick <br>
-lick and kiss <br>
+I do not drop into life head first  
+I sink my feet into it slowly  
+spreading my toes to experience  
+every stick  
+lick and kiss  
 
-Staring as it rises around me <br>
-Ever slowly engulfing me in its <br>
-binding embrace
+Staring as it rises around me  
+Ever slowly engulfing me in its  
+binding embrace  
 
 -- Carter Hill
