@@ -1,7 +1,21 @@
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+# About Connor
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+Connor is a standout car sales representative at Volkswagen of Cool Springs, consistently recognized as the top employee in the dealership. His exceptional people skills, deep product knowledge, and genuine passion for helping customers make informed decisions set him apart in the automotive industry.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+## People Skills
 
-This is me. I am me. You are not I. I am not You.
+- **Empathy & Listening** – Connor takes the time to understand each customer's needs, ensuring they feel heard and respected.  
+- **Clear Communication** – He explains complex vehicle features in simple terms, making the buying or selling process transparent.  
+- **Trust Building** – Customers appreciate his honesty and integrity, often returning for future purchases or referrals.
+
+## Why Choose Connor
+
+- **Expertise** – Years of experience with Volkswagen models and a thorough understanding of financing options.  
+- **Customer Success** – A track record of satisfied clients who have found the perfect vehicle or sold their current car at a fair price.  
+- **Community Focus** – Connor actively participates in local events and supports community initiatives, reflecting the dealership’s values.
+
+If you’re looking to buy or sell a car, Connor is the person to guide you through every step of the process. Feel free to reach out to him for personalized assistance.
+
+> *“Connor’s dedication and professionalism make every car buying experience a breeze.” – A satisfied customer*
+
+*Note: Add your profile picture (`prof_pic.jpg`) in the `img/` folder and update any links or social media details as needed.*
